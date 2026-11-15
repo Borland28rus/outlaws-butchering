@@ -106,4 +106,4 @@ Notes:
 
 ## License
 
-The code and data of this mod (C#, JSON patches, recipes, translations, generator scripts, poses) are released under the [MIT License](LICENSE). The outlaw and hound models are by Grifthegnome (Outlaw Mod) and are used with his permission; they are not covered by this license.
+The code and data of this mod (C#, JSON patches, recipes, translations, generator scripts, poses) are released under the [MIT License](LICENSE). The outlaw and hound models are by Grifthegnome (Outlaw Mod) and are used with his permission; they are not covered by this license (see [NOTICE](NOTICE)).

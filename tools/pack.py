@@ -13,4 +13,5 @@ with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED) as z:
             z.write(p, a)
     z.write(DLL, 'OutlawsHumanButchering.dll')
     z.write(os.path.join(ROOT, 'LICENSE'), 'LICENSE')
+    z.write(os.path.join(ROOT, 'NOTICE'), 'NOTICE')
 print(out)
