@@ -1,0 +1,21 @@
+{
+  "code": "curedlongpork",
+  "sealHours": 480,
+  "ingredients": [
+    {
+      "type": "item",
+      "code": "game:salt",
+      "quantity": 2
+    },
+    {
+      "type": "item",
+      "code": "outlawshumanbutchering:longpork-raw",
+      "quantity": 1
+    }
+  ],
+  "output": {
+    "type": "item",
+    "code": "outlawshumanbutchering:longpork-cured",
+    "stackSize": 1
+  }
+}

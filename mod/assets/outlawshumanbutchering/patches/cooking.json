@@ -1,0 +1,106 @@
+[
+  {
+    "op": "addeach",
+    "path": "/ingredients/0/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group6"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group6"
+        ]
+      }
+    ],
+    "file": "game:recipes/cooking/meatystew.json",
+    "side": "Server"
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/3/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group2"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group2"
+        ]
+      }
+    ],
+    "file": "game:recipes/cooking/meatystew.json",
+    "side": "Server"
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group2"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group2"
+        ]
+      }
+    ],
+    "file": "game:recipes/cooking/meatystew.json",
+    "side": "Server"
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "shapeElement": "bowl/meat/*",
+        "textureMapping": [
+          "meat",
+          "group2"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/meat/*",
+        "textureMapping": [
+          "meat",
+          "group2"
+        ]
+      }
+    ],
+    "file": "game:recipes/cooking/soup.json",
+    "side": "Server"
+  }
+]

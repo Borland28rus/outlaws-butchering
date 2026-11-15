@@ -1,0 +1,1392 @@
+{
+  "textureWidth": 64,
+  "textureHeight": 64,
+  "textureSizes": {
+    "seraph": [
+      64,
+      64
+    ]
+  },
+  "textures": {
+    "leather": "game:block/leather",
+    "aged": "game:block/wood/debarked/aged",
+    "bone": "game:block/wood/debarked/oak",
+    "yeoman": "game:entity/bandit/yeoman1",
+    "string": "game:item/tool/material/string"
+  },
+  "elements": [
+    {
+      "name": "Origin",
+      "from": [
+        8,
+        9.8,
+        8
+      ],
+      "to": [
+        8,
+        9.8,
+        8
+      ],
+      "rotationOrigin": [
+        8,
+        9.8,
+        8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#null",
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "enabled": false
+        },
+        "east": {
+          "texture": "#null",
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "enabled": false
+        },
+        "south": {
+          "texture": "#null",
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "enabled": false
+        },
+        "west": {
+          "texture": "#null",
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "enabled": false
+        },
+        "up": {
+          "texture": "#null",
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "enabled": false
+        },
+        "down": {
+          "texture": "#null",
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "enabled": false
+        }
+      },
+      "children": [
+        {
+          "name": "LowerTorso",
+          "from": [
+            -2.3769,
+            15.0729,
+            -3.0
+          ],
+          "to": [
+            2.6231,
+            19.3729,
+            3.0
+          ],
+          "unwrapMode": 4,
+          "uv": [
+            25.0,
+            7.0
+          ],
+          "rotationOrigin": [
+            -0.3769,
+            15.0729,
+            0.0
+          ],
+          "rotationZ": 8.0,
+          "faces": {
+            "north": {
+              "texture": "#yeoman",
+              "uv": [
+                25.0,
+                10.0,
+                46.0,
+                15.0
+              ],
+              "autoUv": false
+            },
+            "east": {
+              "texture": "#yeoman",
+              "uv": [
+                57.0,
+                10.0,
+                63.0,
+                15.0
+              ],
+              "autoUv": false
+            },
+            "south": {
+              "texture": "#yeoman",
+              "uv": [
+                52.0,
+                10.0,
+                57.0,
+                15.0
+              ],
+              "autoUv": false
+            },
+            "west": {
+              "texture": "#yeoman",
+              "uv": [
+                46.0,
+                10.0,
+                52.0,
+                15.0
+              ],
+              "autoUv": false
+            },
+            "up": {
+              "texture": "#yeoman",
+              "uv": [
+                46.0,
+                7.0,
+                40.0,
+                10.0
+              ],
+              "rotation": 90,
+              "autoUv": false
+            },
+            "down": {
+              "texture": "#yeoman",
+              "uv": [
+                46.0,
+                15.0,
+                40.0,
+                15.0
+              ],
+              "rotation": 90,
+              "autoUv": false
+            }
+          },
+          "children": [
+            {
+              "name": "UpperTorso",
+              "from": [
+                0.0,
+                4.1,
+                -0.15
+              ],
+              "to": [
+                5.3,
+                9.1,
+                6.15
+              ],
+              "uv": [
+                52.0,
+                2.0
+              ],
+              "rotationOrigin": [
+                2.0,
+                4.8,
+                3.0
+              ],
+              "rotationZ": 1.0,
+              "faces": {
+                "north": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    41.0,
+                    5.0,
+                    46.0,
+                    10.0
+                  ],
+                  "autoUv": false
+                },
+                "east": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    57.0,
+                    5.0,
+                    63.0,
+                    10.0
+                  ],
+                  "autoUv": false
+                },
+                "south": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    52.0,
+                    5.0,
+                    57.0,
+                    10.0
+                  ],
+                  "autoUv": false
+                },
+                "west": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    46.0,
+                    5.0,
+                    52.0,
+                    10.0
+                  ],
+                  "autoUv": false
+                },
+                "up": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    46.0,
+                    0.0,
+                    52.0,
+                    5.0
+                  ],
+                  "rotation": 90,
+                  "autoUv": false
+                },
+                "down": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    34.0,
+                    5.0,
+                    40.0,
+                    10.0
+                  ],
+                  "rotation": 90,
+                  "autoUv": false
+                }
+              },
+              "children": [
+                {
+                  "name": "UpperArmL",
+                  "from": [
+                    1.0,
+                    -2.1,
+                    5.4
+                  ],
+                  "to": [
+                    4.0,
+                    4.9,
+                    7.4
+                  ],
+                  "unwrapMode": 4,
+                  "uv": [
+                    42.0,
+                    38.5
+                  ],
+                  "rotationOrigin": [
+                    2.0,
+                    4.7,
+                    5.2
+                  ],
+                  "rotationX": 12.0,
+                  "faces": {
+                    "north": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        42.0,
+                        41.5,
+                        45.0,
+                        48.5
+                      ]
+                    },
+                    "east": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        50.0,
+                        41.5,
+                        52.0,
+                        48.5
+                      ]
+                    },
+                    "south": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        47.0,
+                        41.5,
+                        50.0,
+                        48.5
+                      ]
+                    },
+                    "west": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        45.0,
+                        41.5,
+                        47.0,
+                        48.5
+                      ]
+                    },
+                    "up": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        45.0,
+                        38.5,
+                        47.0,
+                        41.5
+                      ],
+                      "rotation": 90
+                    },
+                    "down": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        45.0,
+                        48.5,
+                        47.0,
+                        51.5
+                      ],
+                      "rotation": 90
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "LowerArmL",
+                      "from": [
+                        0.2,
+                        -7.3,
+                        -0.1
+                      ],
+                      "to": [
+                        2.7,
+                        0.7,
+                        1.9
+                      ],
+                      "unwrapMode": 4,
+                      "uv": [
+                        42.5,
+                        49.0
+                      ],
+                      "rotationOrigin": [
+                        1.4,
+                        0.7,
+                        0.9
+                      ],
+                      "rotationX": 30.0,
+                      "rotationZ": -6.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            42.5,
+                            51.5,
+                            45.0,
+                            59.5
+                          ]
+                        },
+                        "east": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            49.5,
+                            51.5,
+                            51.5,
+                            59.5
+                          ]
+                        },
+                        "south": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            47.0,
+                            51.5,
+                            49.5,
+                            59.5
+                          ]
+                        },
+                        "west": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            45.0,
+                            51.5,
+                            47.0,
+                            59.5
+                          ]
+                        },
+                        "up": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            45.0,
+                            49.0,
+                            47.0,
+                            51.5
+                          ],
+                          "rotation": 90
+                        },
+                        "down": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            45.0,
+                            59.5,
+                            47.0,
+                            62.0
+                          ],
+                          "rotation": 90
+                        }
+                      },
+                      "attachmentpoints": [
+                        {
+                          "code": "LeftHand",
+                          "posX": "1.0",
+                          "posY": "1.0",
+                          "posZ": "1.0",
+                          "rotationX": "0.0",
+                          "rotationY": "-180.0",
+                          "rotationZ": "0.0"
+                        }
+                      ],
+                      "children": []
+                    }
+                  ],
+                  "rotationY": -9.0,
+                  "rotationZ": 159.0
+                },
+                {
+                  "name": "Neck",
+                  "from": [
+                    1.5,
+                    3.9,
+                    1.6
+                  ],
+                  "to": [
+                    4.5,
+                    7.9,
+                    4.6
+                  ],
+                  "unwrapMode": 4,
+                  "uv": [
+                    12.0,
+                    1.0
+                  ],
+                  "rotationOrigin": [
+                    3.2,
+                    3.6,
+                    3.1
+                  ],
+                  "rotationZ": 12.0,
+                  "faces": {
+                    "north": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        12.0,
+                        1.0,
+                        15.0,
+                        5.0
+                      ]
+                    },
+                    "east": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        21.0,
+                        1.0,
+                        24.0,
+                        5.0
+                      ]
+                    },
+                    "south": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        18.0,
+                        1.0,
+                        21.0,
+                        5.0
+                      ]
+                    },
+                    "west": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        15.0,
+                        1.0,
+                        18.0,
+                        5.0
+                      ]
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "Head",
+                      "from": [
+                        -1.7,
+                        2.0,
+                        -1.0
+                      ],
+                      "to": [
+                        4.3,
+                        7.0,
+                        4.0
+                      ],
+                      "unwrapMode": 4,
+                      "uv": [
+                        0.0,
+                        0.0
+                      ],
+                      "rotationOrigin": [
+                        2.7,
+                        2.0,
+                        1.5
+                      ],
+                      "rotationZ": -18.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            0.0,
+                            6.0,
+                            6.0,
+                            11.0
+                          ]
+                        },
+                        "east": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            17.0,
+                            6.0,
+                            22.0,
+                            11.0
+                          ]
+                        },
+                        "south": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            11.0,
+                            6.0,
+                            17.0,
+                            11.0
+                          ]
+                        },
+                        "west": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            6.0,
+                            6.0,
+                            11.0,
+                            11.0
+                          ]
+                        },
+                        "up": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            6.0,
+                            0.0,
+                            11.0,
+                            6.0
+                          ],
+                          "rotation": 90
+                        },
+                        "down": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            6.0,
+                            11.0,
+                            11.0,
+                            17.0
+                          ],
+                          "rotation": 90
+                        }
+                      },
+                      "children": [
+                        {
+                          "name": "Hair",
+                          "from": [
+                            -0.2,
+                            -3.1,
+                            -0.2
+                          ],
+                          "to": [
+                            6.2,
+                            5.3,
+                            5.2
+                          ],
+                          "uv": [
+                            8.0,
+                            13.0
+                          ],
+                          "rotationOrigin": [
+                            1.9,
+                            2.0,
+                            1.9
+                          ],
+                          "faces": {
+                            "north": {
+                              "texture": "#yeoman",
+                              "uv": [
+                                8.0,
+                                19.0,
+                                14.0,
+                                27.0
+                              ]
+                            },
+                            "east": {
+                              "texture": "#yeoman",
+                              "uv": [
+                                25.0,
+                                19.0,
+                                30.0,
+                                27.0
+                              ]
+                            },
+                            "south": {
+                              "texture": "#yeoman",
+                              "uv": [
+                                19.0,
+                                19.0,
+                                25.0,
+                                27.0
+                              ]
+                            },
+                            "west": {
+                              "texture": "#yeoman",
+                              "uv": [
+                                14.0,
+                                19.0,
+                                19.0,
+                                27.0
+                              ]
+                            },
+                            "up": {
+                              "texture": "#yeoman",
+                              "uv": [
+                                14.0,
+                                13.0,
+                                18.375,
+                                19.375
+                              ],
+                              "rotation": 90,
+                              "autoUv": false
+                            }
+                          }
+                        }
+                      ],
+                      "attachmentpoints": [
+                        {
+                          "code": "Eyes",
+                          "posX": "1.3",
+                          "posY": "3.5",
+                          "posZ": "2.5",
+                          "rotationX": "0.0",
+                          "rotationY": "-90.0",
+                          "rotationZ": "0.0"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "UpperArmR",
+                  "from": [
+                    1.0,
+                    -2.1,
+                    -1.2
+                  ],
+                  "to": [
+                    4.0,
+                    4.9,
+                    0.8
+                  ],
+                  "unwrapMode": 4,
+                  "autoUnwrap": false,
+                  "uv": [
+                    31.0,
+                    36.0
+                  ],
+                  "rotationOrigin": [
+                    2.0,
+                    4.7,
+                    0.8
+                  ],
+                  "rotationX": -10.0,
+                  "faces": {
+                    "north": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        33.0,
+                        41.5,
+                        36.0,
+                        48.5
+                      ]
+                    },
+                    "east": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        31.0,
+                        41.5,
+                        33.0,
+                        48.5
+                      ]
+                    },
+                    "south": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        38.0,
+                        41.5,
+                        41.0,
+                        48.5
+                      ]
+                    },
+                    "west": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        36.0,
+                        41.5,
+                        38.0,
+                        48.5
+                      ]
+                    },
+                    "up": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        36.0,
+                        38.5,
+                        38.0,
+                        41.5
+                      ],
+                      "rotation": 90
+                    },
+                    "down": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        36.0,
+                        48.5,
+                        38.0,
+                        51.5
+                      ],
+                      "rotation": 90
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "LowerArmR",
+                      "from": [
+                        0.1,
+                        -7.3,
+                        0.1
+                      ],
+                      "to": [
+                        2.6,
+                        0.7,
+                        2.1
+                      ],
+                      "unwrapMode": 4,
+                      "autoUnwrap": false,
+                      "uv": [
+                        31.5,
+                        49.0
+                      ],
+                      "rotationOrigin": [
+                        1.3,
+                        0.7,
+                        1.1
+                      ],
+                      "rotationX": -31.0,
+                      "rotationZ": -6.0,
+                      "faces": {
+                        "north": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            33.5,
+                            51.5,
+                            36.0,
+                            59.5
+                          ]
+                        },
+                        "east": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            31.5,
+                            51.5,
+                            33.5,
+                            59.5
+                          ]
+                        },
+                        "south": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            38.0,
+                            51.5,
+                            40.5,
+                            59.5
+                          ]
+                        },
+                        "west": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            36.0,
+                            51.5,
+                            38.0,
+                            59.5
+                          ]
+                        },
+                        "up": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            36.0,
+                            49.0,
+                            38.0,
+                            51.5
+                          ],
+                          "rotation": 90
+                        },
+                        "down": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            36.0,
+                            59.5,
+                            38.0,
+                            62.0
+                          ],
+                          "rotation": 90
+                        }
+                      },
+                      "children": [],
+                      "attachmentpoints": [
+                        {
+                          "code": "RightHand",
+                          "posX": "1.0",
+                          "posY": "1.0",
+                          "posZ": "1.0",
+                          "rotationX": "0.0",
+                          "rotationY": "-180.0",
+                          "rotationZ": "0.0"
+                        }
+                      ]
+                    }
+                  ],
+                  "rotationZ": 168.0
+                }
+              ],
+              "attachmentpoints": [
+                {
+                  "code": "Back",
+                  "posX": "5.0",
+                  "posY": "3.0",
+                  "posZ": "3.0",
+                  "rotationX": "0.0",
+                  "rotationY": "0.0",
+                  "rotationZ": "0.0"
+                }
+              ]
+            },
+            {
+              "name": "UpperFootL",
+              "from": [
+                0.4,
+                -6.0,
+                3.0
+              ],
+              "to": [
+                4.6,
+                1.5,
+                6.2
+              ],
+              "unwrapMode": 4,
+              "uv": [
+                16.0,
+                33.0
+              ],
+              "rotationOrigin": [
+                1.5,
+                0.5,
+                4.3
+              ],
+              "rotationX": -3.0,
+              "rotationZ": -15.0,
+              "faces": {
+                "north": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    16.0,
+                    37.0,
+                    20.0,
+                    44.5
+                  ]
+                },
+                "east": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    27.0,
+                    37.0,
+                    30.0,
+                    44.5
+                  ]
+                },
+                "south": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    23.0,
+                    37.0,
+                    27.0,
+                    44.5
+                  ]
+                },
+                "west": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    20.0,
+                    37.0,
+                    23.0,
+                    44.5
+                  ]
+                },
+                "up": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    20.0,
+                    33.0,
+                    23.0,
+                    37.0
+                  ],
+                  "rotation": 90
+                },
+                "down": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    20.0,
+                    44.5,
+                    23.0,
+                    48.5
+                  ],
+                  "rotation": 90
+                }
+              },
+              "children": [
+                {
+                  "name": "LowerFootL",
+                  "from": [
+                    0.1,
+                    -9.0,
+                    0.1
+                  ],
+                  "to": [
+                    4.1,
+                    1.0,
+                    3.1
+                  ],
+                  "unwrapMode": 4,
+                  "uv": [
+                    16.0,
+                    46.0
+                  ],
+                  "rotationOrigin": [
+                    2.1,
+                    0.5,
+                    1.4
+                  ],
+                  "rotationX": 10.0,
+                  "rotationZ": 2.0,
+                  "faces": {
+                    "north": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        16.0,
+                        50.0,
+                        20.0,
+                        60.0
+                      ]
+                    },
+                    "east": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        27.0,
+                        50.0,
+                        30.0,
+                        60.0
+                      ]
+                    },
+                    "south": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        23.0,
+                        50.0,
+                        27.0,
+                        60.0
+                      ]
+                    },
+                    "west": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        20.0,
+                        50.0,
+                        23.0,
+                        60.0
+                      ]
+                    },
+                    "up": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        20.0,
+                        46.0,
+                        23.0,
+                        50.0
+                      ],
+                      "rotation": 90
+                    },
+                    "down": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        20.0,
+                        60.0,
+                        23.0,
+                        64.0
+                      ],
+                      "rotation": 90
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shoe1",
+                      "from": [
+                        -1.13,
+                        -0.14,
+                        -0.27
+                      ],
+                      "to": [
+                        4.17,
+                        0.96,
+                        3.33
+                      ],
+                      "unwrapMode": 4,
+                      "uv": [
+                        30.5,
+                        17.5
+                      ],
+                      "rotationOrigin": [
+                        1.2002,
+                        9.3244,
+                        0.7002
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            30.5,
+                            22.5,
+                            35.5,
+                            23.5
+                          ]
+                        },
+                        "east": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            44.0,
+                            22.5,
+                            47.5,
+                            23.5
+                          ]
+                        },
+                        "south": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            39.0,
+                            22.5,
+                            44.0,
+                            23.5
+                          ]
+                        },
+                        "west": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            35.5,
+                            22.5,
+                            39.0,
+                            23.5
+                          ]
+                        },
+                        "up": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            35.5,
+                            17.5,
+                            39.0,
+                            22.5
+                          ],
+                          "rotation": 90
+                        },
+                        "down": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            35.5,
+                            23.5,
+                            39.0,
+                            28.5
+                          ],
+                          "rotation": 90
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "rotationY": -5.0
+            },
+            {
+              "name": "UpperFootR",
+              "from": [
+                0.4,
+                -6.0,
+                -0.2
+              ],
+              "to": [
+                4.6,
+                1.3,
+                3.0
+              ],
+              "unwrapMode": 4,
+              "autoUnwrap": false,
+              "uv": [
+                1.0,
+                29.0
+              ],
+              "rotationOrigin": [
+                1.5,
+                0.5,
+                1.3
+              ],
+              "rotationX": 3.0,
+              "rotationZ": -12.0,
+              "faces": {
+                "north": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    4.0,
+                    37.0,
+                    8.0,
+                    44.0
+                  ]
+                },
+                "east": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    1.0,
+                    37.0,
+                    4.0,
+                    44.0
+                  ]
+                },
+                "south": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    11.0,
+                    37.0,
+                    15.0,
+                    44.0
+                  ]
+                },
+                "west": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    8.0,
+                    37.0,
+                    11.0,
+                    44.0
+                  ]
+                },
+                "up": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    8.0,
+                    33.0,
+                    11.0,
+                    37.0
+                  ],
+                  "rotation": 90
+                },
+                "down": {
+                  "texture": "#yeoman",
+                  "uv": [
+                    8.0,
+                    46.0,
+                    11.0,
+                    50.0
+                  ],
+                  "rotation": 90
+                }
+              },
+              "children": [
+                {
+                  "name": "LowerFootR",
+                  "from": [
+                    0.1,
+                    -9.0,
+                    0.1
+                  ],
+                  "to": [
+                    4.1,
+                    1.0,
+                    3.1
+                  ],
+                  "unwrapMode": 4,
+                  "autoUnwrap": false,
+                  "uv": [
+                    1.0,
+                    46.0
+                  ],
+                  "rotationOrigin": [
+                    2.1,
+                    0.5,
+                    1.4
+                  ],
+                  "rotationX": -11.0,
+                  "rotationZ": 2.0,
+                  "faces": {
+                    "north": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        4.0,
+                        50.0,
+                        8.0,
+                        60.0
+                      ]
+                    },
+                    "east": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        1.0,
+                        50.0,
+                        4.0,
+                        60.0
+                      ]
+                    },
+                    "south": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        11.0,
+                        50.0,
+                        15.0,
+                        60.0
+                      ]
+                    },
+                    "west": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        8.0,
+                        50.0,
+                        11.0,
+                        60.0
+                      ]
+                    },
+                    "up": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        8.0,
+                        46.0,
+                        11.0,
+                        50.0
+                      ],
+                      "rotation": 90
+                    },
+                    "down": {
+                      "texture": "#yeoman",
+                      "uv": [
+                        8.0,
+                        60.0,
+                        11.0,
+                        64.0
+                      ],
+                      "rotation": 90
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "shoe2",
+                      "from": [
+                        -1.13,
+                        -0.14,
+                        -0.27
+                      ],
+                      "to": [
+                        4.17,
+                        0.96,
+                        3.33
+                      ],
+                      "unwrapMode": 4,
+                      "uv": [
+                        30.5,
+                        17.5
+                      ],
+                      "rotationOrigin": [
+                        1.2002,
+                        9.3244,
+                        0.7002
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            30.5,
+                            22.5,
+                            35.5,
+                            23.5
+                          ]
+                        },
+                        "east": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            44.0,
+                            22.5,
+                            47.5,
+                            23.5
+                          ]
+                        },
+                        "south": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            39.0,
+                            22.5,
+                            44.0,
+                            23.5
+                          ]
+                        },
+                        "west": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            35.5,
+                            22.5,
+                            39.0,
+                            23.5
+                          ]
+                        },
+                        "up": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            35.5,
+                            17.5,
+                            39.0,
+                            22.5
+                          ],
+                          "rotation": 90
+                        },
+                        "down": {
+                          "texture": "#yeoman",
+                          "uv": [
+                            35.5,
+                            23.5,
+                            39.0,
+                            28.5
+                          ],
+                          "rotation": 90
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "rotationY": -12.0
+            }
+          ]
+        }
+      ],
+      "rotationZ": 180.0,
+      "rotationY": -180.0
+    }
+  ]
+}

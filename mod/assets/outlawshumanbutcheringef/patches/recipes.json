@@ -1,0 +1,4182 @@
+[
+  {
+    "op": "addeach",
+    "path": "/ingredients/5/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-dried",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-curing",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-dried",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-curing",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-cut",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      }
+    ],
+    "file": "efmealsmodule:recipes/cooking/augratin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "efmealsmodule"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/6/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-dried",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-curing",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-dried",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-curing",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-cut",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      }
+    ],
+    "file": "efmealsmodule:recipes/cooking/augratin.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "efmealsmodule"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/6/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-dried",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-curing",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-dried",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-curing",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-cut",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      }
+    ],
+    "file": "efmealsmodule:recipes/cooking/pastahot.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "efmealsmodule"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/7/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-dried",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-curing",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-dried",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-curing",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-cut",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      }
+    ],
+    "file": "efmealsmodule:recipes/cooking/pastahot.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "efmealsmodule"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/6/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-dried",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-curing",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-dried",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-curing",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-cut",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      }
+    ],
+    "file": "efmealsmodule:recipes/cooking/riceandbeans.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "efmealsmodule"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/7/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-dried",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-curing",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-dried",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-curing",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-cut",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      }
+    ],
+    "file": "efmealsmodule:recipes/cooking/riceandbeans.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "efmealsmodule"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/5/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cooked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tenderpartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tendercharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cookedpartbaked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cooked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cookedcharred",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-partbaked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-driedpartbaked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-partbaked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-driedpartbaked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cooked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-driedcooked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cooked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-driedcooked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-charred",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-driedcharred",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-charred",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-driedcharred",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-tenderpartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-tendercharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-meatballpartbaked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-meatball",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-meatballcharred",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      }
+    ],
+    "file": "efmealsmodule:recipes/mixing/pastacold.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "efmealsmodule"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/6/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-partbaked",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cooked",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-charred",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tenderpartbaked",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tender",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tendercharred",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cookedpartbaked",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cooked",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cookedcharred",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-partbaked",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-driedpartbaked",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-partbaked",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-driedpartbaked",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cooked",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-driedcooked",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cooked",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-driedcooked",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-charred",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-driedcharred",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-charred",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-driedcharred",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-tenderpartbaked",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-tender",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-tendercharred",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-meatballpartbaked",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-meatball",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-meatballcharred",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      }
+    ],
+    "file": "efmealsmodule:recipes/mixing/pastacold.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "efmealsmodule"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/9/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-flax-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-flax-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rice-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rice-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rye-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rye-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-spelt-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-spelt-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-cassava-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-cassava-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-amaranth-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-amaranth-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-sunflower-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-sunflower-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-flax-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-flax-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rice-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rice-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rye-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rye-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-spelt-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-spelt-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-cassava-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-cassava-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-amaranth-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-amaranth-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-sunflower-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-sunflower-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-flax-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-flax-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rice-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rice-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rye-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rye-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-spelt-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-spelt-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-cassava-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-cassava-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-amaranth-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-amaranth-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-sunflower-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-sunflower-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-flax-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-flax-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rice-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rice-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rye-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rye-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-spelt-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-spelt-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-cassava-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-cassava-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-amaranth-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-amaranth-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-sunflower-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-sunflower-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-flax-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-flax"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rice-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rice"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rye-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rye"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-spelt-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-spelt"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-cassava-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-cassava"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-amaranth-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-amaranth"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-sunflower-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-sunflower"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-flax-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-flax-charred"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rice-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rice-charred"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rye-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rye-charred"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-spelt-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-spelt-charred"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-cassava-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-cassava-charred"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-amaranth-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-amaranth-charred"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-sunflower-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-sunflower-charred"
+        ]
+      }
+    ],
+    "file": "efmealsmodule:recipes/mixing/pastacold.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "efmealsmodule"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/6/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cured",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-cooked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tenderpartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tendercharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cookedpartbaked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cooked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cookedcharred",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-partbaked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-driedpartbaked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-partbaked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-driedpartbaked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cooked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-driedcooked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cooked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-driedcooked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-charred",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-driedcharred",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-charred",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-driedcharred",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-tenderpartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-tendercharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-meatballpartbaked",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-meatball",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-meatballcharred",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "bushmeat-raw"
+        ]
+      }
+    ],
+    "file": "efmealsmodule:recipes/mixing/salad.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "efmealsmodule"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/13/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-flax-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-flax-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rice-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rice-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rye-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rye-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-spelt-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-spelt-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-cassava-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-cassava-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-amaranth-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-amaranth-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-sunflower-longpork-syruppartbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-sunflower-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-flax-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-flax-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rice-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rice-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rye-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rye-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-spelt-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-spelt-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-cassava-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-cassava-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-amaranth-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-amaranth-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-sunflower-longpork-syrups",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-sunflower-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-flax-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-flax-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rice-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rice-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rye-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rye-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-spelt-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-spelt-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-cassava-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-cassava-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-amaranth-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-amaranth-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-sunflower-longpork-syrupcharred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-sunflower-syrup"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-flax-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-flax-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rice-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rice-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rye-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rye-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-spelt-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-spelt-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-cassava-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-cassava-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-amaranth-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-amaranth-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-sunflower-longpork-partbaked",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-sunflower-partbaked"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-flax-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-flax"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rice-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rice"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rye-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rye"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-spelt-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-spelt"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-cassava-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-cassava"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-amaranth-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-amaranth"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-sunflower-longpork-tender",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-sunflower"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-flax-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-flax-charred"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rice-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rice-charred"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-rye-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-rye-charred"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-spelt-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-spelt-charred"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-cassava-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-cassava-charred"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-amaranth-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-amaranth-charred"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-sunflower-longpork-charred",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "breading-sunflower-charred"
+        ]
+      }
+    ],
+    "file": "efmealsmodule:recipes/mixing/salad.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "efmealsmodule"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,M",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "game:stone-*"
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-partbaked",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tenderpartbaked"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "H,M",
+      "recipeGroup": 2,
+      "ingredients": {
+        "H": {
+          "type": "item",
+          "tags": [
+            "tool-hammer"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-partbaked",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tenderpartbaked"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "R,M",
+      "recipeGroup": 3,
+      "ingredients": {
+        "R": {
+          "type": "item",
+          "tags": [
+            "tool-rollingpin"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-partbaked",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tenderpartbaked"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "SM",
+      "recipeGroup": 4,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "tags": [
+            "tool-knife"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "expandedfoods:meatnugget-longpork-tenderpartbaked",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cookedpartbaked"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "SM",
+      "recipeGroup": 5,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "tags": [
+            "tool-cleaver"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "expandedfoods:meatnugget-longpork-tenderpartbaked",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cookedpartbaked"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,M",
+      "recipeGroup": 6,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "game:stone-*"
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-cooked",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tender"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "H,M",
+      "recipeGroup": 7,
+      "ingredients": {
+        "H": {
+          "type": "item",
+          "tags": [
+            "tool-hammer"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-cooked",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tender"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "R,M",
+      "recipeGroup": 8,
+      "ingredients": {
+        "R": {
+          "type": "item",
+          "tags": [
+            "tool-rollingpin"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-cooked",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tender"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "SM",
+      "recipeGroup": 9,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "tags": [
+            "tool-knife"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "expandedfoods:meatnugget-longpork-tender",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cooked"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "SM",
+      "recipeGroup": 10,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "tags": [
+            "tool-cleaver"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "expandedfoods:meatnugget-longpork-tender",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cooked"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,M",
+      "recipeGroup": 11,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "game:stone-*"
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-charred",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tendercharred"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "H,M",
+      "recipeGroup": 12,
+      "ingredients": {
+        "H": {
+          "type": "item",
+          "tags": [
+            "tool-hammer"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-charred",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tendercharred"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "R,M",
+      "recipeGroup": 13,
+      "ingredients": {
+        "R": {
+          "type": "item",
+          "tags": [
+            "tool-rollingpin"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-charred",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-tendercharred"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "SM",
+      "recipeGroup": 14,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "tags": [
+            "tool-knife"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "expandedfoods:meatnugget-longpork-tendercharred",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cookedcharred"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "SM",
+      "recipeGroup": 15,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "tags": [
+            "tool-cleaver"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "expandedfoods:meatnugget-longpork-tendercharred",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cookedcharred"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "R,M",
+      "recipeGroup": 1,
+      "ingredients": {
+        "R": {
+          "type": "item",
+          "code": "game:stone-*",
+          "name": "stone"
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-raw",
+          "name": "meat"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "name": "longporksmash",
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "SM",
+      "recipeGroup": 3,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "tags": [
+            "tool-knife"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "expandedfoods:meatnugget-longpork-smashed",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-raw"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "H,M",
+      "recipeGroup": 2,
+      "ingredients": {
+        "H": {
+          "type": "item",
+          "tags": [
+            "tool-hammer"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-raw",
+          "name": "meat"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "name": "longporksmash",
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "SM",
+      "recipeGroup": 4,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "tags": [
+            "tool-cleaver"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "expandedfoods:meatnugget-longpork-smashed",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-raw"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "SM",
+      "recipeGroup": 2,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "tags": [
+            "tool-knife"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-cured",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "SM",
+      "recipeGroup": 4,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "tags": [
+            "tool-cleaver"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-cured",
+          "name": "meat"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "R,M",
+      "recipeGroup": 5,
+      "ingredients": {
+        "R": {
+          "type": "item",
+          "tags": [
+            "tool-rollingpin"
+          ],
+          "isTool": true
+        },
+        "M": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-raw",
+          "name": "meat"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "name": "longporksmash",
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed"
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "game:honeyportion",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "aculinaryartillery:eggyolkfullportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "aculinaryartillery:eggyolkportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "aculinaryartillery:eggwhiteportion",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:foodoilportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:treesyrupportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:fruitsyrupportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:lard",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:peanutliquid-butter",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:peanutliquid-sauce",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "expandedfoods:breadcrumbs-*",
+              "quantity": 1,
+              "name": "grain"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "game:flour-*",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "outlawshumanbutchering:longpork-cured",
+              "quantity": 1
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:meatnugget-longpork-smashed",
+              "quantity": 1
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:agedmeat-longpork-cut",
+              "quantity": 1,
+              "name": "meat"
+            }
+          ]
+        }
+      ],
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-{grain}-longpork-smashed",
+        "stackSize": 1
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/kneading/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "game:honeyportion",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "aculinaryartillery:eggyolkfullportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "aculinaryartillery:eggyolkportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "aculinaryartillery:eggwhiteportion",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:foodoilportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:treesyrupportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:fruitsyrupportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:lard",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:peanutliquid-butter",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:peanutliquid-sauce",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "expandedfoods:breadcrumbs-*",
+              "quantity": 1,
+              "name": "grain"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "game:flour-*",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "outlawshumanbutchering:longpork-cured",
+              "quantity": 1
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:meatnugget-longpork-smashed",
+              "quantity": 1
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:agedmeat-longpork-cut",
+              "quantity": 1,
+              "name": "meat"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "game:salt",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-{grain}-longpork-smashed",
+        "stackSize": 1
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/kneading/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "expandedfoods:foodoilportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:lard",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "expandedfoods:breadedmeatnugget-*-longpork-smashed",
+              "name": "grain"
+            }
+          ]
+        }
+      ],
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-{grain}-longpork-oiled",
+        "stackSize": 1
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/kneading/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "game:honeyportion",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:treesyrupportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:soysauce",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:fruitsyrupportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:peanutliquid-butter",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:peanutliquid-sauce",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:fishsauce",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "expandedfoods:breadedmeatnugget-*-longpork-partbaked",
+              "name": "grain"
+            }
+          ]
+        }
+      ],
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-{grain}-longpork-syruppartbaked",
+        "stackSize": 1
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/kneading/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "game:honeyportion",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:treesyrupportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:soysauce",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:fruitsyrupportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:peanutliquid-butter",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:peanutliquid-sauce",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:fishsauce",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "expandedfoods:breadedmeatnugget-*-longpork-tender",
+              "name": "grain"
+            }
+          ]
+        }
+      ],
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-{grain}-longpork-syrups",
+        "stackSize": 1
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/kneading/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "game:honeyportion",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:treesyrupportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:soysauce",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:fruitsyrupportion-*",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:peanutliquid-butter",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:peanutliquid-sauce",
+              "quantity": 10
+            },
+            {
+              "type": "item",
+              "code": "expandedfoods:fishsauce",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "expandedfoods:breadedmeatnugget-*-longpork-charred",
+              "name": "grain"
+            }
+          ]
+        }
+      ],
+      "output": {
+        "type": "item",
+        "code": "expandedfoods:breadedmeatnugget-{grain}-longpork-syrupcharred",
+        "stackSize": 1
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/kneading/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "Ingredients": [
+        {
+          "type": "item",
+          "code": "expandedfoods:foodoilportion-*",
+          "quantity": 10
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:breadedmeatnugget-*-longpork-smashed",
+          "quantity": 1,
+          "name": "grain"
+        }
+      ],
+      "Simmering": {
+        "meltingPoint": 150,
+        "meltingDuration": 10,
+        "smeltedRatio": 1,
+        "smeltingType": "bake",
+        "smeltedStack": {
+          "type": "item",
+          "code": "expandedfoods:breadedmeatnugget-{grain}-longpork-tender"
+        },
+        "requiresContainer": false
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/simmering/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "Ingredients": [
+        {
+          "type": "item",
+          "code": "expandedfoods:lard",
+          "quantity": 10
+        },
+        {
+          "type": "item",
+          "code": "expandedfoods:breadedmeatnugget-*-longpork-smashed",
+          "quantity": 1,
+          "name": "grain"
+        }
+      ],
+      "Simmering": {
+        "meltingPoint": 150,
+        "meltingDuration": 10,
+        "smeltedRatio": 1,
+        "smeltingType": "bake",
+        "smeltedStack": {
+          "type": "item",
+          "code": "expandedfoods:breadedmeatnugget-{grain}-longpork-tender"
+        },
+        "requiresContainer": false
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/simmering/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "Ingredients": [
+        {
+          "type": "item",
+          "code": "waterportion",
+          "quantity": 100
+        },
+        {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-partbaked",
+          "quantity": 1
+        }
+      ],
+      "Simmering": {
+        "meltingPoint": 200,
+        "meltingDuration": 24,
+        "smeltedRatio": 1,
+        "smeltingType": "bake",
+        "smeltedStack": {
+          "type": "item",
+          "code": "expandedfoods:brothportion-meat",
+          "quantity": 50
+        },
+        "requiresContainer": false
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/simmering/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "Ingredients": [
+        {
+          "type": "item",
+          "code": "waterportion",
+          "quantity": 50
+        },
+        {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-raw",
+          "quantity": 1
+        }
+      ],
+      "Simmering": {
+        "meltingPoint": 200,
+        "meltingDuration": 24,
+        "smeltedRatio": 1,
+        "smeltingType": "bake",
+        "smeltedStack": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-cooked",
+          "quantity": 1
+        },
+        "requiresContainer": false
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/simmering/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "Ingredients": [
+        {
+          "type": "item",
+          "code": "waterportion",
+          "quantity": 50
+        },
+        {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-partbaked",
+          "quantity": 1
+        }
+      ],
+      "Simmering": {
+        "meltingPoint": 200,
+        "meltingDuration": 24,
+        "smeltedRatio": 1,
+        "smeltingType": "bake",
+        "smeltedStack": {
+          "type": "item",
+          "code": "outlawshumanbutchering:longpork-cooked",
+          "quantity": 1
+        },
+        "requiresContainer": false
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/simmering/expandedfoods-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "saucealot:bbq-*",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "outlawshumanbutchering:longpork-raw",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "output": {
+        "type": "item",
+        "code": "saucealot:bbqmeat-longpork-raw",
+        "stackSize": 1
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/kneading/saucealot-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "saucealot:coloneltso",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "outlawshumanbutchering:longpork-raw",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "output": {
+        "type": "item",
+        "code": "saucealot:coloneltsomeat-longpork-raw",
+        "stackSize": 1
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/kneading/saucealot-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredients": [
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "saucealot:winereduction-*",
+              "quantity": 10
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "type": "item",
+              "code": "outlawshumanbutchering:longpork-raw",
+              "quantity": 1
+            }
+          ]
+        }
+      ],
+      "output": {
+        "type": "item",
+        "code": "saucealot:winereductionmeat-longpork-raw",
+        "stackSize": 1
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/kneading/saucealot-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "BB",
+      "ingredients": {
+        "B": {
+          "type": "item",
+          "code": "expandedfoods:meatnugget-longpork-smashed"
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "output": {
+        "type": "item",
+        "code": "sandwich:meatpatty-raw",
+        "quantity": 1
+      }
+    },
+    "file": "outlawshumanbutcheringef:recipes/grid/sandwich-longpork.json",
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "sandwich"
+      }
+    ]
+  }
+]

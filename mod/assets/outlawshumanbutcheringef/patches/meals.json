@@ -1,0 +1,808 @@
+[
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/longpork-raw",
+    "value": [
+      "meat",
+      "group8"
+    ],
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/outlawshumanbutchering:longpork-raw",
+    "value": [
+      "meat",
+      "group8"
+    ],
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/longpork-cured",
+    "value": [
+      "meat",
+      "group8"
+    ],
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/outlawshumanbutchering:longpork-cured",
+    "value": [
+      "meat",
+      "group8"
+    ],
+    "side": "server",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/0/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-cut",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/3/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-dried",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-curing",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-dried",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-curing",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-cut",
+        "shapeElement": "bowl/red meat/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-dried",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-curing",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-dried",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-curing",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-raw",
+        "shapeElement": "bowl/meatnugget 2/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-cut",
+        "shapeElement": "bowl/red meat 2/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/longpork-raw",
+    "side": "server",
+    "value": [
+      "meat",
+      "group8"
+    ],
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/outlawshumanbutchering:longpork-raw",
+    "side": "server",
+    "value": [
+      "meat",
+      "group8"
+    ],
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/longpork-cured",
+    "side": "server",
+    "value": [
+      "meat",
+      "group8"
+    ],
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/outlawshumanbutchering:longpork-cured",
+    "side": "server",
+    "value": [
+      "meat",
+      "group8"
+    ],
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/meatnugget-longpork-raw",
+    "side": "server",
+    "value": [
+      "meat",
+      "group8"
+    ],
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/meatnugget-longpork-cured",
+    "side": "server",
+    "value": [
+      "meat",
+      "group8"
+    ],
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:meatnugget-longpork-raw",
+    "value": [
+      "meatnugget",
+      "bushmeat-raw"
+    ],
+    "side": "server",
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:agedmeat-longpork-raw",
+    "value": [
+      "meatnugget",
+      "bushmeat-raw"
+    ],
+    "side": "server",
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:agedmeat-longpork-cut",
+    "value": [
+      "meatnugget",
+      "bushmeat-raw"
+    ],
+    "side": "server",
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/longpork-raw",
+    "value": {
+      "base": "block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat"
+    },
+    "side": "server",
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/textures/outlawshumanbutchering:longpork-raw",
+    "value": {
+      "base": "block/food/meal/group7-honey-fieldmushroom-pineapple-scrambledegg-bushmeat"
+    },
+    "side": "server",
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/expandedfoods:meatnugget-longpork-tender",
+    "value": [
+      "meat",
+      "group8"
+    ],
+    "side": "server",
+    "file": "game:blocktypes/clay/fired/pot.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-smashed",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:meatnugget-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-dried",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-curing",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longpork-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-raw",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-dried",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-curing",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "expandedfoods:sausage-longporkcheese-cured",
+        "shapeElement": "bowl/meatnugget 1/*",
+        "textureMapping": [
+          "meatnugget",
+          "group8"
+        ]
+      }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/soup.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/0/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "saucealot:bbqmeat-longpork-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "saucealot:coloneltsomeat-longpork-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "saucealot:winereductionmeat-longpork-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/3/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "saucealot:bbqmeat-longpork-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "saucealot:coloneltsomeat-longpork-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "saucealot:winereductionmeat-longpork-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "addeach",
+    "path": "/ingredients/4/validStacks/-",
+    "value": [
+      {
+        "type": "item",
+        "code": "saucealot:bbqmeat-longpork-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "saucealot:coloneltsomeat-longpork-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      },
+      {
+        "type": "item",
+        "code": "saucealot:winereductionmeat-longpork-raw",
+        "shapeElement": "bowl/meat stew/*",
+        "textureMapping": [
+          "meat",
+          "group7"
+        ]
+      }
+    ],
+    "side": "server",
+    "file": "game:recipes/cooking/meatystew.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  }
+]

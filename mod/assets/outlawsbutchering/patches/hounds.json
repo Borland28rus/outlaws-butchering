@@ -1,0 +1,70 @@
+[
+ {
+  "op": "add",
+  "path": "/server/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "item": "outlawsbutchering:deadhound-feral-1-dead"
+  },
+  "file": "game:entities/mobs/hound-feral.json",
+  "dependsOn": [
+   {
+    "modid": "outlawmod122"
+   },
+   {
+    "modid": "butchering"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/client/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "item": "outlawsbutchering:deadhound-feral-1-dead"
+  },
+  "file": "game:entities/mobs/hound-feral.json",
+  "dependsOn": [
+   {
+    "modid": "outlawmod122"
+   },
+   {
+    "modid": "butchering"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/server/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "item": "outlawsbutchering:deadhound-hunting-1-dead"
+  },
+  "file": "game:entities/mobs/hound-hunting.json",
+  "dependsOn": [
+   {
+    "modid": "outlawmod122"
+   },
+   {
+    "modid": "butchering"
+   }
+  ]
+ },
+ {
+  "op": "add",
+  "path": "/client/behaviors/-",
+  "value": {
+   "code": "butcherable",
+   "item": "outlawsbutchering:deadhound-hunting-1-dead"
+  },
+  "file": "game:entities/mobs/hound-hunting.json",
+  "dependsOn": [
+   {
+    "modid": "outlawmod122"
+   },
+   {
+    "modid": "butchering"
+   }
+  ]
+ }
+]

@@ -1,0 +1,421 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/nutritionPropsWhenInMeal",
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+      "*-raw": {
+        "satiety": 300,
+        "foodcategory": "Protein"
+      },
+      "*-cured": {
+        "satiety": 218,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/meathookable",
+    "value": true,
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/meatHookTransform",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": -0.8,
+        "z": -0.02
+      },
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/transitionablePropsByType/*-raw/1",
+    "value": {
+      "type": "Dry",
+      "freshHours": {
+        "avg": 480
+      },
+      "transitionHours": {
+        "avg": 20
+      },
+      "transitionedStack": {
+        "type": "item",
+        "code": "expandedfoods:agedmeat-longpork-normal"
+      },
+      "transitionRatio": 1
+    },
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/bakingPropertiesByType",
+    "value": {
+      "*-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "outlawshumanbutchering:longpork-partbaked"
+      },
+      "*-partbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "outlawshumanbutchering:longpork-cooked",
+        "initialCode": "outlawshumanbutchering:longpork-raw"
+      },
+      "*-cooked": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "outlawshumanbutchering:longpork-charred",
+        "initialCode": "outlawshumanbutchering:longpork-partbaked"
+      },
+      "*-charred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "outlawshumanbutchering:longpork-cooked"
+      }
+    },
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/onDisplayTransform",
+    "value": {
+      "translation": {
+        "x": 0.05,
+        "y": 0,
+        "z": -0.025
+      },
+      "rotation": {
+        "x": 0,
+        "y": -45,
+        "z": 0
+      }
+    },
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/combustiblePropsByType/longpork-raw/smeltedStack/code",
+    "value": "outlawshumanbutchering:longpork-charred",
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/combustiblePropsByType/@*-(partbaked|cooked)",
+    "value": {
+      "meltingPoint": 150,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltingType": "cook",
+      "smeltedStack": {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-charred"
+      },
+      "requiresContainer": false
+    },
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-charred",
+    "value": {
+      "satiety": 172,
+      "foodcategory": "Protein"
+    },
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-partbaked",
+    "value": {
+      "satiety": 188,
+      "foodcategory": "Protein"
+    },
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/transitionablePropsByType/*-charred",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 420
+        },
+        "transitionHours": {
+          "avg": 60
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/transitionablePropsByType/*-partbaked",
+    "value": [
+      {
+        "type": "Perish",
+        "freshHours": {
+          "avg": 120
+        },
+        "transitionHours": {
+          "avg": 36
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 1
+      }
+    ],
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/states/1",
+    "value": "partbaked",
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "cooked",
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "charred",
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "@*-(raw|cured)": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling",
+        "mixingCodes": [
+          "protein",
+          "soybushmeat",
+          "soymeat",
+          "cheddarbushmeat",
+          "bluebushmeat",
+          "cottagebushmeat",
+          "cheddarmeat",
+          "bluemeat",
+          "cottagemeat",
+          "cheesemeat",
+          "bushmeatmushroomblack",
+          "bushmeatmushroomyellow",
+          "bushmeatmushroomoffwhite",
+          "bushmeatmushroomorange",
+          "bushmeatmushroomdevilstooth",
+          "bushmeatmushroomred",
+          "bushmeatmushroomgreen",
+          "bushmeatmushroomblue",
+          "bushmeatmushroomlobster",
+          "bushmeatmushroombrown",
+          "bushmeatmushroomwhite",
+          "bushmeatmushroompurple",
+          "bushmeatmushroompink",
+          "bushmeatmushroom",
+          "meatmushroom",
+          "bushmeatpeanut",
+          "bushmeatwalnut",
+          "bushmeatnut",
+          "meatnut",
+          "bushmeatquiche",
+          "meatquiche",
+          "bushmeatbellpepper",
+          "bushmeatcabbage",
+          "bushmeatcassava",
+          "bushmeatcarrot",
+          "bushmeatfennel",
+          "bushmeatolive",
+          "bushmeatonion",
+          "bushmeatparsnip",
+          "bushmeatpumpkin",
+          "bushmeatturnip",
+          "bushmeatveg",
+          "potpie",
+          "bushmeatapple",
+          "bushmeatbeautyberry",
+          "bushmeatblackberry",
+          "bushmeatblackcurrant",
+          "bushmeatblueberry",
+          "bushmeatbreadfruit",
+          "bushmeatcactusfruit,",
+          "bushmeatcherry",
+          "bushmeatcloudberry",
+          "bushmeatcranberry",
+          "bushmeatgooseberry",
+          "bushmeatguava",
+          "bushmeatkumquat",
+          "bushmeatlychee",
+          "bushmeatmango",
+          "bushmeatorange",
+          "bushmeatpeach",
+          "bushmeatpear",
+          "bushmeatpineapple",
+          "bushmeatplumnatal",
+          "bushmeatpomegranate",
+          "bushmeatraspberry",
+          "bushmeatredcurrant",
+          "bushmeatsaguaro",
+          "bushmeatstrawberry",
+          "bushmeatwhitecurrant",
+          "bushmeatfruit",
+          "meatfruit",
+          "cheesemeatmushroom",
+          "cheesemeatveg",
+          "meatfruitveg",
+          "meatvegquiche",
+          "meatmushroomquiche",
+          "soypotpie",
+          "nutmeatveg",
+          "nutfruitmeatveg",
+          "cheesemeatvegmushroom"
+        ]
+      }
+    },
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributes/handbook",
+    "value": {
+      "groupBy": [
+        "longpork-*"
+      ]
+    },
+    "file": "outlawshumanbutchering:itemtypes/food/longpork.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  }
+]

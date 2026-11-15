@@ -1,0 +1,902 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "quantity": {
+          "avg": 7,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:fat",
+        "quantity": {
+          "avg": 1.25,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:hide-raw-human",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/mobs/bandit-axe.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-banditaxe-1-dead"
+    },
+    "file": "game:entities/mobs/bandit-axe.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-banditaxe-1-dead"
+    },
+    "file": "game:entities/mobs/bandit-axe.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "outlawshumanbutchering.guaranteedhead",
+      "head": "game:outlawhead-brigand"
+    },
+    "file": "game:entities/mobs/bandit-axe.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "quantity": {
+          "avg": 7,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:fat",
+        "quantity": {
+          "avg": 1.25,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:hide-raw-human",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/mobs/bandit-knife.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-banditknife-1-dead"
+    },
+    "file": "game:entities/mobs/bandit-knife.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-banditknife-1-dead"
+    },
+    "file": "game:entities/mobs/bandit-knife.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "outlawshumanbutchering.guaranteedhead",
+      "head": "game:outlawhead-brigand"
+    },
+    "file": "game:entities/mobs/bandit-knife.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "quantity": {
+          "avg": 7,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:fat",
+        "quantity": {
+          "avg": 1.25,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:hide-raw-human",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/mobs/bandit-spear.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-banditspear-1-dead"
+    },
+    "file": "game:entities/mobs/bandit-spear.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-banditspear-1-dead"
+    },
+    "file": "game:entities/mobs/bandit-spear.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "outlawshumanbutchering.guaranteedhead",
+      "head": "game:outlawhead-brigand"
+    },
+    "file": "game:entities/mobs/bandit-spear.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "quantity": {
+          "avg": 7,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:fat",
+        "quantity": {
+          "avg": 1.25,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:hide-raw-human",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/mobs/deserter-archer.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-deserterarcher-1-dead"
+    },
+    "file": "game:entities/mobs/deserter-archer.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-deserterarcher-1-dead"
+    },
+    "file": "game:entities/mobs/deserter-archer.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "outlawshumanbutchering.guaranteedhead",
+      "head": "game:outlawhead-deserter-archer"
+    },
+    "file": "game:entities/mobs/deserter-archer.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "quantity": {
+          "avg": 7,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:fat",
+        "quantity": {
+          "avg": 1.25,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:hide-raw-human",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/mobs/deserter-bannerman.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-deserterbannerman-1-dead"
+    },
+    "file": "game:entities/mobs/deserter-bannerman.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-deserterbannerman-1-dead"
+    },
+    "file": "game:entities/mobs/deserter-bannerman.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "outlawshumanbutchering.guaranteedhead",
+      "head": "game:outlawhead-deserter-footman"
+    },
+    "file": "game:entities/mobs/deserter-bannerman.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "quantity": {
+          "avg": 7,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:fat",
+        "quantity": {
+          "avg": 1.25,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:hide-raw-human",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/mobs/deserter-footman.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-deserterfootman-1-dead"
+    },
+    "file": "game:entities/mobs/deserter-footman.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-deserterfootman-1-dead"
+    },
+    "file": "game:entities/mobs/deserter-footman.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "outlawshumanbutchering.guaranteedhead",
+      "head": "game:outlawhead-deserter-footman"
+    },
+    "file": "game:entities/mobs/deserter-footman.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "quantity": {
+          "avg": 7,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:fat",
+        "quantity": {
+          "avg": 1.25,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:hide-raw-human",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/mobs/looter.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-looter-1-dead"
+    },
+    "file": "game:entities/mobs/looter.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-looter-1-dead"
+    },
+    "file": "game:entities/mobs/looter.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "outlawshumanbutchering.guaranteedhead",
+      "head": "game:outlawhead-looter"
+    },
+    "file": "game:entities/mobs/looter.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "quantity": {
+          "avg": 7,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:fat",
+        "quantity": {
+          "avg": 1.25,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:hide-raw-human",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/mobs/poacher-archer.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-poacherarcher-1-dead"
+    },
+    "file": "game:entities/mobs/poacher-archer.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-poacherarcher-1-dead"
+    },
+    "file": "game:entities/mobs/poacher-archer.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "outlawshumanbutchering.guaranteedhead",
+      "head": "game:outlawhead-poacher"
+    },
+    "file": "game:entities/mobs/poacher-archer.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "quantity": {
+          "avg": 7,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:fat",
+        "quantity": {
+          "avg": 1.25,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:hide-raw-human",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/mobs/poacher-spear.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-poacherspear-1-dead"
+    },
+    "file": "game:entities/mobs/poacher-spear.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-poacherspear-1-dead"
+    },
+    "file": "game:entities/mobs/poacher-spear.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "outlawshumanbutchering.guaranteedhead",
+      "head": "game:outlawhead-poacher"
+    },
+    "file": "game:entities/mobs/poacher-spear.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops",
+    "value": [
+      {
+        "type": "item",
+        "code": "outlawshumanbutchering:longpork-raw",
+        "quantity": {
+          "avg": 7,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:fat",
+        "quantity": {
+          "avg": 1.25,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:hide-raw-human",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/mobs/yeoman-archer.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-yeomanarcher-1-dead"
+    },
+    "file": "game:entities/mobs/yeoman-archer.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "butcherable",
+      "item": "outlawshumanbutchering:deadoutlaw-yeomanarcher-1-dead"
+    },
+    "file": "game:entities/mobs/yeoman-archer.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "outlawshumanbutchering.guaranteedhead",
+      "head": "game:outlawhead-yeoman"
+    },
+    "file": "game:entities/mobs/yeoman-archer.json",
+    "dependsOn": [
+      {
+        "modid": "outlawmod122"
+      },
+      {
+        "modid": "butchering"
+      }
+    ]
+  }
+]

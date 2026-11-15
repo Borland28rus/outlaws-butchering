@@ -1,0 +1,9 @@
+# build outputs
+dist/
+src/bin/
+src/obj/
+__pycache__/
+tools/preview.png
+# machine-specific paths (see tools/paths.py)
+local.paths.json
+src/local.props

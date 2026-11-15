@@ -1,0 +1,4832 @@
+[
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "longpork",
+    "file": "expandedfoods:itemtypes/food/meatnugget.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+      "@*-longpork-(raw|smashed)": {
+        "satiety": 330,
+        "foodcategory": "Protein"
+      },
+      "@*-bushmeat-(raw|smashed)": {
+        "satiety": 195,
+        "foodcategory": "Protein"
+      },
+      "@*-redmeat-(raw|smashed)": {
+        "satiety": 465,
+        "foodcategory": "Protein"
+      },
+      "@*-poultry-(raw|smashed)": {
+        "satiety": 330,
+        "foodcategory": "Protein"
+      },
+      "meatnugget-longpork-cured": {
+        "satiety": 278,
+        "foodcategory": "Protein"
+      },
+      "meatnugget-bushmeat-cured": {
+        "satiety": 165,
+        "foodcategory": "Protein"
+      },
+      "meatnugget-redmeat-cured": {
+        "satiety": 390,
+        "foodcategory": "Protein"
+      },
+      "meatnugget-poultry-cured": {
+        "satiety": 285,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/meatnugget.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "@*-redmeat-(raw|smashed|cured)": {
+        "texture": "game:block/food/pie/fill-redmeat",
+        "partType": "Filling",
+        "mixingCodes": [
+          "protein",
+          "soyredmeat",
+          "soymeat",
+          "cheddarredmeat",
+          "blueredmeat",
+          "cottageredmeat",
+          "cheddarmeat",
+          "bluemeat",
+          "cottagemeat",
+          "cheesemeat",
+          "redmeatmushroomblack",
+          "redmeatmushroomyellow",
+          "redmeatmushroomoffwhite",
+          "redmeatmushroomorange",
+          "redmeatmushroomdevilstooth",
+          "redmeatmushroomred",
+          "redmeatmushroomgreen",
+          "redmeatmushroomblue",
+          "redmeatmushroomlobster",
+          "redmeatmushroombrown",
+          "redmeatmushroomwhite",
+          "redmeatmushroompurple",
+          "redmeatmushroompink",
+          "redmeatmushroom",
+          "meatmushroom",
+          "redmeatpeanut",
+          "redmeatwalnut",
+          "redmeatnut",
+          "meatnut",
+          "redmeatquiche",
+          "meatquiche",
+          "redmeatbellpepper",
+          "redmeatcabbage",
+          "redmeatcassava",
+          "redmeatcarrot",
+          "redmeatfennel",
+          "redmeatolive",
+          "redmeatonion",
+          "redmeatparsnip",
+          "redmeatpumpkin",
+          "redmeatturnip",
+          "redmeatveg",
+          "potpie",
+          "redmeatapple",
+          "redmeatbeautyberry",
+          "redmeatblackberry",
+          "redmeatblackcurrant",
+          "redmeatblueberry",
+          "redmeatbreadfruit",
+          "redmeatcactusfruit,",
+          "redmeatcherry",
+          "redmeatcloudberry",
+          "redmeatcranberry",
+          "redmeatgooseberry",
+          "redmeatguava",
+          "redmeatkumquat",
+          "redmeatlychee",
+          "redmeatmango",
+          "redmeatorange",
+          "redmeatpeach",
+          "redmeatpear",
+          "redmeatpineapple",
+          "redmeatplumnatal",
+          "redmeatpomegranate",
+          "redmeatraspberry",
+          "redmeatredcurrant",
+          "redmeatsaguaro",
+          "redmeatstrawberry",
+          "redmeatwhitecurrant",
+          "redmeatfruit",
+          "meatfruit",
+          "cheesemeatmushroom",
+          "cheesemeatveg",
+          "meatfruitveg",
+          "meatvegquiche",
+          "meatmushroomquiche",
+          "soypotpie",
+          "nutmeatveg",
+          "nutfruitmeatveg",
+          "cheesemeatvegmushroom"
+        ]
+      },
+      "@*-longpork-(raw|smashed|cured)": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling",
+        "mixingCodes": [
+          "protein",
+          "soybushmeat",
+          "soymeat",
+          "cheddarbushmeat",
+          "bluebushmeat",
+          "cottagebushmeat",
+          "cheddarmeat",
+          "bluemeat",
+          "cottagemeat",
+          "cheesemeat",
+          "bushmeatmushroomblack",
+          "bushmeatmushroomyellow",
+          "bushmeatmushroomoffwhite",
+          "bushmeatmushroomorange",
+          "bushmeatmushroomdevilstooth",
+          "bushmeatmushroomred",
+          "bushmeatmushroomgreen",
+          "bushmeatmushroomblue",
+          "bushmeatmushroomlobster",
+          "bushmeatmushroombrown",
+          "bushmeatmushroomwhite",
+          "bushmeatmushroompurple",
+          "bushmeatmushroompink",
+          "bushmeatmushroom",
+          "meatmushroom",
+          "bushmeatpeanut",
+          "bushmeatwalnut",
+          "bushmeatnut",
+          "meatnut",
+          "bushmeatquiche",
+          "meatquiche",
+          "bushmeatbellpepper",
+          "bushmeatcabbage",
+          "bushmeatcassava",
+          "bushmeatcarrot",
+          "bushmeatfennel",
+          "bushmeatolive",
+          "bushmeatonion",
+          "bushmeatparsnip",
+          "bushmeatpumpkin",
+          "bushmeatturnip",
+          "bushmeatveg",
+          "potpie",
+          "bushmeatapple",
+          "bushmeatbeautyberry",
+          "bushmeatblackberry",
+          "bushmeatblackcurrant",
+          "bushmeatblueberry",
+          "bushmeatbreadfruit",
+          "bushmeatcactusfruit,",
+          "bushmeatcherry",
+          "bushmeatcloudberry",
+          "bushmeatcranberry",
+          "bushmeatgooseberry",
+          "bushmeatguava",
+          "bushmeatkumquat",
+          "bushmeatlychee",
+          "bushmeatmango",
+          "bushmeatorange",
+          "bushmeatpeach",
+          "bushmeatpear",
+          "bushmeatpineapple",
+          "bushmeatplumnatal",
+          "bushmeatpomegranate",
+          "bushmeatraspberry",
+          "bushmeatredcurrant",
+          "bushmeatsaguaro",
+          "bushmeatstrawberry",
+          "bushmeatwhitecurrant",
+          "bushmeatfruit",
+          "meatfruit",
+          "cheesemeatmushroom",
+          "cheesemeatveg",
+          "meatfruitveg",
+          "meatvegquiche",
+          "meatmushroomquiche",
+          "soypotpie",
+          "nutmeatveg",
+          "nutfruitmeatveg",
+          "cheesemeatvegmushroom"
+        ]
+      },
+      "@*-bushmeat-(raw|smashed|cured)": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling",
+        "mixingCodes": [
+          "protein",
+          "soybushmeat",
+          "soymeat",
+          "cheddarbushmeat",
+          "bluebushmeat",
+          "cottagebushmeat",
+          "cheddarmeat",
+          "bluemeat",
+          "cottagemeat",
+          "cheesemeat",
+          "bushmeatmushroomblack",
+          "bushmeatmushroomyellow",
+          "bushmeatmushroomoffwhite",
+          "bushmeatmushroomorange",
+          "bushmeatmushroomdevilstooth",
+          "bushmeatmushroomred",
+          "bushmeatmushroomgreen",
+          "bushmeatmushroomblue",
+          "bushmeatmushroomlobster",
+          "bushmeatmushroombrown",
+          "bushmeatmushroomwhite",
+          "bushmeatmushroompurple",
+          "bushmeatmushroompink",
+          "bushmeatmushroom",
+          "meatmushroom",
+          "bushmeatpeanut",
+          "bushmeatwalnut",
+          "bushmeatnut",
+          "meatnut",
+          "bushmeatquiche",
+          "meatquiche",
+          "bushmeatbellpepper",
+          "bushmeatcabbage",
+          "bushmeatcassava",
+          "bushmeatcarrot",
+          "bushmeatfennel",
+          "bushmeatolive",
+          "bushmeatonion",
+          "bushmeatparsnip",
+          "bushmeatpumpkin",
+          "bushmeatturnip",
+          "bushmeatveg",
+          "potpie",
+          "bushmeatapple",
+          "bushmeatbeautyberry",
+          "bushmeatblackberry",
+          "bushmeatblackcurrant",
+          "bushmeatblueberry",
+          "bushmeatbreadfruit",
+          "bushmeatcactusfruit,",
+          "bushmeatcherry",
+          "bushmeatcloudberry",
+          "bushmeatcranberry",
+          "bushmeatgooseberry",
+          "bushmeatguava",
+          "bushmeatkumquat",
+          "bushmeatlychee",
+          "bushmeatmango",
+          "bushmeatorange",
+          "bushmeatpeach",
+          "bushmeatpear",
+          "bushmeatpineapple",
+          "bushmeatplumnatal",
+          "bushmeatpomegranate",
+          "bushmeatraspberry",
+          "bushmeatredcurrant",
+          "bushmeatsaguaro",
+          "bushmeatstrawberry",
+          "bushmeatwhitecurrant",
+          "bushmeatfruit",
+          "meatfruit",
+          "cheesemeatmushroom",
+          "cheesemeatveg",
+          "meatfruitveg",
+          "meatvegquiche",
+          "meatmushroomquiche",
+          "soypotpie",
+          "nutmeatveg",
+          "nutfruitmeatveg",
+          "cheesemeatvegmushroom"
+        ]
+      },
+      "@*-poultry-(raw|smashed|cured)": {
+        "texture": "game:block/food/pie/fill-poultry",
+        "partType": "Filling",
+        "mixingCodes": [
+          "protein",
+          "soypoultry",
+          "soymeat",
+          "cheddarpoultry",
+          "bluepoultry",
+          "cottagepoultry",
+          "cheddarmeat",
+          "bluemeat",
+          "cottagemeat",
+          "cheesemeat",
+          "poultrymushroomblack",
+          "poultrymushroomyellow",
+          "poultrymushroomoffwhite",
+          "poultrymushroomorange",
+          "poultrymushroomdevilstooth",
+          "poultrymushroomred",
+          "poultrymushroomgreen",
+          "poultrymushroomblue",
+          "poultrymushroomlobster",
+          "poultrymushroombrown",
+          "poultrymushroomwhite",
+          "poultrymushroompurple",
+          "poultrymushroompink",
+          "poultrymushroom",
+          "meatmushroom",
+          "poultrypeanut",
+          "poultrywalnut",
+          "poultrynut",
+          "meatnut",
+          "poultryquiche",
+          "meatquiche",
+          "poultrybellpepper",
+          "poultrycabbage",
+          "poultrycassava",
+          "poultrycarrot",
+          "poultryfennel",
+          "poultryolive",
+          "poultryonion",
+          "poultryparsnip",
+          "poultrypumpkin",
+          "poultryturnip",
+          "poultrywalnut",
+          "poultryveg",
+          "potpie",
+          "poultryapple",
+          "poultrybeautyberry",
+          "poultryblackberry",
+          "poultryblackcurrant",
+          "poultryblueberry",
+          "poultrybreadfruit",
+          "poultrycactusfruit,",
+          "poultrycherry",
+          "poultrycloudberry",
+          "poultrycranberry",
+          "poultrygooseberry",
+          "poultryguava",
+          "poultrykumquat",
+          "poultrylychee",
+          "poultrymango",
+          "poultryorange",
+          "poultrypeach",
+          "poultrypear",
+          "poultrypineapple",
+          "poultryplumnatal",
+          "poultrypomegranate",
+          "poultryraspberry",
+          "poultryredcurrant",
+          "poultrysaguaro",
+          "poultrystrawberry",
+          "poultrywhitecurrant",
+          "poultryfruit",
+          "meatfruit",
+          "cheesemeatmushroom",
+          "cheesemeatveg",
+          "meatfruitveg",
+          "meatvegquiche",
+          "meatmushroomquiche",
+          "soypotpie",
+          "nutmeatveg",
+          "nutfruitmeatveg",
+          "cheesemeatvegmushroom"
+        ]
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/meatnugget.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType",
+    "value": {
+      "*-longpork-cured": {
+        "satiety": 185,
+        "foodcategory": "Protein"
+      },
+      "*-bushmeat-cured": {
+        "satiety": 110,
+        "foodcategory": "Protein"
+      },
+      "*-poultry-cured": {
+        "satiety": 190,
+        "foodcategory": "Protein"
+      },
+      "*-redmeat-cured": {
+        "satiety": 260,
+        "foodcategory": "Protein"
+      },
+      "@*-longpork-(cookedpartbaked|tenderpartbaked)": {
+        "satiety": 206,
+        "foodcategory": "Protein"
+      },
+      "@*-bushmeat-(cookedpartbaked|tenderpartbaked)": {
+        "satiety": 122,
+        "foodcategory": "Protein"
+      },
+      "@*-poultry-(cookedpartbaked|tenderpartbaked)": {
+        "satiety": 205,
+        "foodcategory": "Protein"
+      },
+      "@*-redmeat-(cookedpartbaked|tenderpartbaked)": {
+        "satiety": 290,
+        "foodcategory": "Protein"
+      },
+      "@*-longpork-(cooked|tender)": {
+        "satiety": 220,
+        "foodcategory": "Protein"
+      },
+      "@*-bushmeat-(cooked|tender)": {
+        "satiety": 130,
+        "foodcategory": "Protein"
+      },
+      "@*-poultry-(cooked|tender)": {
+        "satiety": 220,
+        "foodcategory": "Protein"
+      },
+      "@*-redmeat-(cooked|tender)": {
+        "satiety": 310,
+        "foodcategory": "Protein"
+      },
+      "@*-longpork-(cookedcharred|tendercharred)": {
+        "satiety": 212,
+        "foodcategory": "Protein"
+      },
+      "@*-bushmeat-(cookedcharred|tendercharred)": {
+        "satiety": 125,
+        "foodcategory": "Protein"
+      },
+      "@*-poultry-(cookedcharred|tendercharred)": {
+        "satiety": 210,
+        "foodcategory": "Protein"
+      },
+      "@*-redmeat-(cookedcharred|tendercharred)": {
+        "satiety": 300,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/meatnugget.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransformByType",
+    "value": {
+      "@*-(cookedpartbaked|cooked|cookedcharred|raw|cured)": {
+        "rotate": false,
+        "translation": {
+          "x": 0.0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 28
+        },
+        "origin": {
+          "x": 0.43,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 7
+      },
+      "*-longpork-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.475,
+          "y": 0.08,
+          "z": 0.575
+        },
+        "scale": 4.5
+      },
+      "*-bushmeat-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.475,
+          "y": 0.08,
+          "z": 0.575
+        },
+        "scale": 4.5
+      },
+      "*-redmeat-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.475,
+          "y": 0.08,
+          "z": 0.575
+        },
+        "scale": 4.5
+      },
+      "*-poultry-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.02,
+          "z": 0.52
+        },
+        "scale": 4.5
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/meatnugget.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransformByType",
+    "value": {
+      "@*-(cookedpartbaked|cooked|cookedcharred|raw|cured)": {
+        "translation": {
+          "x": 0.05,
+          "y": -0.05,
+          "z": 0.1
+        },
+        "rotation": {
+          "x": 1,
+          "y": 9,
+          "z": -11
+        },
+        "origin": {
+          "x": 0.21,
+          "y": -0.2,
+          "z": 0.15
+        },
+        "scale": 1
+      },
+      "@*-longpork-(smashed|cured|tenderpartbaked|tender|tendercharred)": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "@*-bushmeat-(smashed|cured|tenderpartbaked|tender|tendercharred)": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "@*-poultry-(smashed|cured|tenderpartbaked|tender|tendercharred)": {
+        "translation": {
+          "x": -0.07,
+          "y": -0.36,
+          "z": -0.14
+        },
+        "rotation": {
+          "x": 85,
+          "y": 9,
+          "z": 3
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.75
+      },
+      "@*-redmeat-(smashed|cured|tenderpartbaked|tender|tendercharred)": {
+        "translation": {
+          "x": -0.1,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/meatnugget.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/shapebytype",
+    "value": {
+      "meatnugget-longpork-smashed": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "meatnugget-longpork-raw": {
+        "base": "item/food/meat/bushmeat-nugget"
+      },
+      "meatnugget-longpork-cured": {
+        "base": "item/food/meat/bushmeat-nugget"
+      },
+      "meatnugget-longpork-cookedpartbaked": {
+        "base": "item/food/meat/bushmeat-cooked"
+      },
+      "meatnugget-longpork-cooked": {
+        "base": "item/food/meat/bushmeat-cooked"
+      },
+      "meatnugget-longpork-cookedcharred": {
+        "base": "item/food/meat/bushmeat-cooked"
+      },
+      "meatnugget-longpork-tenderpartbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "meatnugget-longpork-tender": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "meatnugget-longpork-tendercharred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "meatnugget-*-smashed": {
+        "base": "item/food/meat/{meat}-smash"
+      },
+      "@*-(raw|cured)": {
+        "base": "item/food/meat/{meat}-nugget"
+      },
+      "@*-(tenderpartbaked|tender|tendercharred)": {
+        "base": "item/food/meat/{meat}-tender"
+      },
+      "@*-(cookedpartbaked|cooked|cookedcharred)": {
+        "base": "item/food/meat/{meat}-cooked"
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/meatnugget.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "longpork",
+    "file": "expandedfoods:itemtypes/food/agedmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/meatHookTransformByType",
+    "value": {
+      "*-poultry-normal": {
+        "translation": {
+          "x": -0.01,
+          "y": -0.8,
+          "z": -0.05
+        },
+        "rotation": {
+          "x": 0,
+          "y": -90,
+          "z": -91
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 1
+      },
+      "*-redmeat-normal": {
+        "translation": {
+          "x": 0.025,
+          "y": -0.8,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": -90,
+          "y": 90,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 1
+      },
+      "*-longpork-normal": {
+        "translation": {
+          "x": 0,
+          "y": -0.8,
+          "z": -0.02
+        },
+        "rotation": {
+          "x": 0,
+          "y": -90,
+          "z": 90
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 1
+      },
+      "*-bushmeat-normal": {
+        "translation": {
+          "x": 0,
+          "y": -0.8,
+          "z": -0.02
+        },
+        "rotation": {
+          "x": 0,
+          "y": -90,
+          "z": 90
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 1
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/agedmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/onDisplayTransformByType",
+    "value": {
+      "@*-(longpork|redmeat|poultry)-(cut|tenderpartbaked|tender|tendercharred)": {
+        "translation": {
+          "x": 0.05,
+          "y": 0,
+          "z": -0.025
+        },
+        "rotation": {
+          "x": 0,
+          "y": -45,
+          "z": 0
+        }
+      },
+      "@*-(bushmeat|redmeat|poultry)-(cut|tenderpartbaked|tender|tendercharred)": {
+        "translation": {
+          "x": 0.05,
+          "y": 0,
+          "z": -0.025
+        },
+        "rotation": {
+          "x": 0,
+          "y": -45,
+          "z": 0
+        }
+      },
+      "@*-(raw|meatballpartbaked|meatball|meatballcharred)": {
+        "translation": {
+          "x": 0,
+          "y": 0.125,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": -45,
+          "z": 0
+        },
+        "scale": 1.25
+      },
+      "*": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 1
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/agedmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+      "@*-longpork-(cut|raw)": {
+        "satiety": 330,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-bushmeat-(cut|raw)": {
+        "satiety": 195,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-redmeat-(cut|raw)": {
+        "satiety": 465,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-poultry-(cut|raw)": {
+        "satiety": 330,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/agedmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "@*-redmeat-(raw|cut)": {
+        "texture": "game:block/food/pie/fill-redmeat",
+        "partType": "Filling",
+        "mixingCodes": [
+          "protein",
+          "soyredmeat",
+          "soymeat",
+          "cheddarredmeat",
+          "blueredmeat",
+          "cottageredmeat",
+          "cheddarmeat",
+          "bluemeat",
+          "cottagemeat",
+          "cheesemeat",
+          "redmeatmushroomblack",
+          "redmeatmushroomyellow",
+          "redmeatmushroomoffwhite",
+          "redmeatmushroomorange",
+          "redmeatmushroomdevilstooth",
+          "redmeatmushroomred",
+          "redmeatmushroomgreen",
+          "redmeatmushroomblue",
+          "redmeatmushroomlobster",
+          "redmeatmushroombrown",
+          "redmeatmushroomwhite",
+          "redmeatmushroompurple",
+          "redmeatmushroompink",
+          "redmeatmushroom",
+          "meatmushroom",
+          "redmeatpeanut",
+          "redmeatwalnut",
+          "redmeatnut",
+          "meatnut",
+          "redmeatquiche",
+          "meatquiche",
+          "redmeatbellpepper",
+          "redmeatcabbage",
+          "redmeatcassava",
+          "redmeatcarrot",
+          "redmeatfennel",
+          "redmeatolive",
+          "redmeatonion",
+          "redmeatparsnip",
+          "redmeatpumpkin",
+          "redmeatturnip",
+          "redmeatveg",
+          "potpie",
+          "redmeatapple",
+          "redmeatbeautyberry",
+          "redmeatblackberry",
+          "redmeatblackcurrant",
+          "redmeatblueberry",
+          "redmeatbreadfruit",
+          "redmeatcactusfruit,",
+          "redmeatcherry",
+          "redmeatcloudberry",
+          "redmeatcranberry",
+          "redmeatgooseberry",
+          "redmeatguava",
+          "redmeatkumquat",
+          "redmeatlychee",
+          "redmeatmango",
+          "redmeatorange",
+          "redmeatpeach",
+          "redmeatpear",
+          "redmeatpineapple",
+          "redmeatplumnatal",
+          "redmeatpomegranate",
+          "redmeatraspberry",
+          "redmeatredcurrant",
+          "redmeatsaguaro",
+          "redmeatstrawberry",
+          "redmeatwhitecurrant",
+          "redmeatfruit",
+          "meatfruit",
+          "cheesemeatmushroom",
+          "cheesemeatveg",
+          "meatfruitveg",
+          "meatvegquiche",
+          "meatmushroomquiche",
+          "soypotpie",
+          "nutmeatveg",
+          "nutfruitmeatveg",
+          "cheesemeatvegmushroom"
+        ]
+      },
+      "@*-longpork-(raw|cut)": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling",
+        "mixingCodes": [
+          "protein",
+          "soybushmeat",
+          "soymeat",
+          "cheddarbushmeat",
+          "bluebushmeat",
+          "cottagebushmeat",
+          "cheddarmeat",
+          "bluemeat",
+          "cottagemeat",
+          "cheesemeat",
+          "bushmeatmushroomblack",
+          "bushmeatmushroomyellow",
+          "bushmeatmushroomoffwhite",
+          "bushmeatmushroomorange",
+          "bushmeatmushroomdevilstooth",
+          "bushmeatmushroomred",
+          "bushmeatmushroomgreen",
+          "bushmeatmushroomblue",
+          "bushmeatmushroomlobster",
+          "bushmeatmushroombrown",
+          "bushmeatmushroomwhite",
+          "bushmeatmushroompurple",
+          "bushmeatmushroompink",
+          "bushmeatmushroom",
+          "meatmushroom",
+          "bushmeatpeanut",
+          "bushmeatwalnut",
+          "bushmeatnut",
+          "meatnut",
+          "bushmeatquiche",
+          "meatquiche",
+          "bushmeatbellpepper",
+          "bushmeatcabbage",
+          "bushmeatcassava",
+          "bushmeatcarrot",
+          "bushmeatfennel",
+          "bushmeatolive",
+          "bushmeatonion",
+          "bushmeatparsnip",
+          "bushmeatpumpkin",
+          "bushmeatturnip",
+          "bushmeatveg",
+          "potpie",
+          "bushmeatapple",
+          "bushmeatbeautyberry",
+          "bushmeatblackberry",
+          "bushmeatblackcurrant",
+          "bushmeatblueberry",
+          "bushmeatbreadfruit",
+          "bushmeatcactusfruit,",
+          "bushmeatcherry",
+          "bushmeatcloudberry",
+          "bushmeatcranberry",
+          "bushmeatgooseberry",
+          "bushmeatguava",
+          "bushmeatkumquat",
+          "bushmeatlychee",
+          "bushmeatmango",
+          "bushmeatorange",
+          "bushmeatpeach",
+          "bushmeatpear",
+          "bushmeatpineapple",
+          "bushmeatplumnatal",
+          "bushmeatpomegranate",
+          "bushmeatraspberry",
+          "bushmeatredcurrant",
+          "bushmeatsaguaro",
+          "bushmeatstrawberry",
+          "bushmeatwhitecurrant",
+          "bushmeatfruit",
+          "meatfruit",
+          "cheesemeatmushroom",
+          "cheesemeatveg",
+          "meatfruitveg",
+          "meatvegquiche",
+          "meatmushroomquiche",
+          "soypotpie",
+          "nutmeatveg",
+          "nutfruitmeatveg",
+          "cheesemeatvegmushroom"
+        ]
+      },
+      "@*-bushmeat-(raw|cut)": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling",
+        "mixingCodes": [
+          "protein",
+          "soybushmeat",
+          "soymeat",
+          "cheddarbushmeat",
+          "bluebushmeat",
+          "cottagebushmeat",
+          "cheddarmeat",
+          "bluemeat",
+          "cottagemeat",
+          "cheesemeat",
+          "bushmeatmushroomblack",
+          "bushmeatmushroomyellow",
+          "bushmeatmushroomoffwhite",
+          "bushmeatmushroomorange",
+          "bushmeatmushroomdevilstooth",
+          "bushmeatmushroomred",
+          "bushmeatmushroomgreen",
+          "bushmeatmushroomblue",
+          "bushmeatmushroomlobster",
+          "bushmeatmushroombrown",
+          "bushmeatmushroomwhite",
+          "bushmeatmushroompurple",
+          "bushmeatmushroompink",
+          "bushmeatmushroom",
+          "meatmushroom",
+          "bushmeatpeanut",
+          "bushmeatwalnut",
+          "bushmeatnut",
+          "meatnut",
+          "bushmeatquiche",
+          "meatquiche",
+          "bushmeatbellpepper",
+          "bushmeatcabbage",
+          "bushmeatcassava",
+          "bushmeatcarrot",
+          "bushmeatfennel",
+          "bushmeatolive",
+          "bushmeatonion",
+          "bushmeatparsnip",
+          "bushmeatpumpkin",
+          "bushmeatturnip",
+          "bushmeatveg",
+          "potpie",
+          "bushmeatapple",
+          "bushmeatbeautyberry",
+          "bushmeatblackberry",
+          "bushmeatblackcurrant",
+          "bushmeatblueberry",
+          "bushmeatbreadfruit",
+          "bushmeatcactusfruit,",
+          "bushmeatcherry",
+          "bushmeatcloudberry",
+          "bushmeatcranberry",
+          "bushmeatgooseberry",
+          "bushmeatguava",
+          "bushmeatkumquat",
+          "bushmeatlychee",
+          "bushmeatmango",
+          "bushmeatorange",
+          "bushmeatpeach",
+          "bushmeatpear",
+          "bushmeatpineapple",
+          "bushmeatplumnatal",
+          "bushmeatpomegranate",
+          "bushmeatraspberry",
+          "bushmeatredcurrant",
+          "bushmeatsaguaro",
+          "bushmeatstrawberry",
+          "bushmeatwhitecurrant",
+          "bushmeatfruit",
+          "meatfruit",
+          "cheesemeatmushroom",
+          "cheesemeatveg",
+          "meatfruitveg",
+          "meatvegquiche",
+          "meatmushroomquiche",
+          "soypotpie",
+          "nutmeatveg",
+          "nutfruitmeatveg",
+          "cheesemeatvegmushroom"
+        ]
+      },
+      "@*-poultry-(raw|cut)": {
+        "texture": "game:block/food/pie/fill-poultry",
+        "partType": "Filling",
+        "mixingCodes": [
+          "protein",
+          "soypoultry",
+          "soymeat",
+          "cheddarpoultry",
+          "bluepoultry",
+          "cottagepoultry",
+          "cheddarmeat",
+          "bluemeat",
+          "cottagemeat",
+          "cheesemeat",
+          "poultrymushroomblack",
+          "poultrymushroomyellow",
+          "poultrymushroomoffwhite",
+          "poultrymushroomorange",
+          "poultrymushroomdevilstooth",
+          "poultrymushroomred",
+          "poultrymushroomgreen",
+          "poultrymushroomblue",
+          "poultrymushroomlobster",
+          "poultrymushroombrown",
+          "poultrymushroomwhite",
+          "poultrymushroompurple",
+          "poultrymushroompink",
+          "poultrymushroom",
+          "meatmushroom",
+          "poultrypeanut",
+          "poultrywalnut",
+          "poultrynut",
+          "meatnut",
+          "poultryquiche",
+          "meatquiche",
+          "poultrybellpepper",
+          "poultrycabbage",
+          "poultrycassava",
+          "poultrycarrot",
+          "poultryfennel",
+          "poultryolive",
+          "poultryonion",
+          "poultryparsnip",
+          "poultrypumpkin",
+          "poultryturnip",
+          "poultrywalnut",
+          "poultryveg",
+          "potpie",
+          "poultryapple",
+          "poultrybeautyberry",
+          "poultryblackberry",
+          "poultryblackcurrant",
+          "poultryblueberry",
+          "poultrybreadfruit",
+          "poultrycactusfruit,",
+          "poultrycherry",
+          "poultrycloudberry",
+          "poultrycranberry",
+          "poultrygooseberry",
+          "poultryguava",
+          "poultrykumquat",
+          "poultrylychee",
+          "poultrymango",
+          "poultryorange",
+          "poultrypeach",
+          "poultrypear",
+          "poultrypineapple",
+          "poultryplumnatal",
+          "poultrypomegranate",
+          "poultryraspberry",
+          "poultryredcurrant",
+          "poultrysaguaro",
+          "poultrystrawberry",
+          "poultrywhitecurrant",
+          "poultryfruit",
+          "meatfruit",
+          "cheesemeatmushroom",
+          "cheesemeatveg",
+          "meatfruitveg",
+          "meatvegquiche",
+          "meatmushroomquiche",
+          "soypotpie",
+          "nutmeatveg",
+          "nutfruitmeatveg",
+          "cheesemeatvegmushroom"
+        ]
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/agedmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType",
+    "value": {
+      "@*-longpork-(tenderpartbaked|meatballpartbaked)": {
+        "satiety": 206,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-bushmeat-(tenderpartbaked|meatballpartbaked)": {
+        "satiety": 122,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-poultry-(tenderpartbaked|meatballpartbaked)": {
+        "satiety": 205,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-redmeat-(tenderpartbaked|meatballpartbaked)": {
+        "satiety": 290,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-longpork-(tender|meatball)": {
+        "satiety": 220,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-bushmeat-(tender|meatball)": {
+        "satiety": 130,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-poultry-(tender|meatball)": {
+        "satiety": 220,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-redmeat-(tender|meatball)": {
+        "satiety": 310,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-longpork-(tendercharred|meatballcharred)": {
+        "satiety": 212,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-bushmeat-(tendercharred|meatballcharred)": {
+        "satiety": 125,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-poultry-(tendercharred|meatballcharred)": {
+        "satiety": 210,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      },
+      "@*-redmeat-(tendercharred|meatballcharred)": {
+        "satiety": 300,
+        "health": 0.5,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/agedmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransformByType",
+    "value": {
+      "@*-(meatballpartbaked|meatball|meatballcharred|raw)": {
+        "translation": {
+          "x": 0.05,
+          "y": -0.05,
+          "z": 0.1
+        },
+        "rotation": {
+          "x": 1,
+          "y": 9,
+          "z": -11
+        },
+        "origin": {
+          "x": 0.21,
+          "y": -0.2,
+          "z": 0.15
+        },
+        "scale": 1
+      },
+      "@*-longpork-(normal|cut|tenderpartbaked|tender|tendercharred)": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "@*-bushmeat-(normal|cut|tenderpartbaked|tender|tendercharred)": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "@*-poultry-(normal|cut|tenderpartbaked|tender|tendercharred)": {
+        "translation": {
+          "x": -0.07,
+          "y": -0.36,
+          "z": -0.14
+        },
+        "rotation": {
+          "x": 85,
+          "y": 9,
+          "z": 3
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.75
+      },
+      "@*-redmeat-(normal|cut|tenderpartbaked|tender|tendercharred)": {
+        "translation": {
+          "x": -0.1,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/agedmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/shapebytype",
+    "value": {
+      "agedmeat-longpork-normal": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "agedmeat-longpork-cut": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "agedmeat-longpork-raw": {
+        "base": "item/food/meat/bushmeat-nugget"
+      },
+      "agedmeat-longpork-tenderpartbaked": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "agedmeat-longpork-tender": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "agedmeat-longpork-tendercharred": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "agedmeat-longpork-meatballpartbaked": {
+        "base": "item/food/meat/bushmeat-cooked"
+      },
+      "agedmeat-longpork-meatball": {
+        "base": "item/food/meat/bushmeat-cooked"
+      },
+      "agedmeat-longpork-meatballcharred": {
+        "base": "item/food/meat/bushmeat-cooked"
+      },
+      "@*-redmeat-(normal|tenderpartbaked|tender|tendercharred|cutpartbaked|cut|cutcharred)": {
+        "base": "game:item/food/meat/red"
+      },
+      "@*-(tenderpartbaked|tender|tendercharred|normal|cut)": {
+        "base": "game:item/food/meat/{meat}"
+      },
+      "agedmeat-*-raw": {
+        "base": "item/food/meat/{meat}-nugget"
+      },
+      "@*-(meatballpartbaked|meatball|meatballcharred)": {
+        "base": "item/food/meat/{meat}-cooked"
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/agedmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/1/states/-",
+    "value": "longpork",
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmeatnugget.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransformByType",
+    "value": {
+      "*-longpork-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.475,
+          "y": 0.08,
+          "z": 0.575
+        },
+        "scale": 4.5
+      },
+      "*-bushmeat-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.475,
+          "y": 0.08,
+          "z": 0.575
+        },
+        "scale": 4.5
+      },
+      "*-redmeat-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.475,
+          "y": 0.08,
+          "z": 0.575
+        },
+        "scale": 4.5
+      },
+      "*-poultry-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.02,
+          "z": 0.52
+        },
+        "scale": 4.5
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmeatnugget.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransformByType",
+    "value": {
+      "*-longpork-*": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "*-bushmeat-*": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "*-poultry-*": {
+        "translation": {
+          "x": -0.07,
+          "y": -0.36,
+          "z": -0.14
+        },
+        "rotation": {
+          "x": 85,
+          "y": 9,
+          "z": 3
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.75
+      },
+      "*-redmeat-*": {
+        "translation": {
+          "x": -0.1,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmeatnugget.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/shapebytype",
+    "value": {
+      "breadedmeatnugget-flax-longpork-smashed": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-flax-longpork-partbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-flax-longpork-tender": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-flax-longpork-charred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-flax-longpork-syruppartbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-flax-longpork-syrups": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-flax-longpork-syrupcharred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-flax-longpork-oiled": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-rice-longpork-smashed": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-rice-longpork-partbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-rice-longpork-tender": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-rice-longpork-charred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-rice-longpork-syruppartbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-rice-longpork-syrups": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-rice-longpork-syrupcharred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-rice-longpork-oiled": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-rye-longpork-smashed": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-rye-longpork-partbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-rye-longpork-tender": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-rye-longpork-charred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-rye-longpork-syruppartbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-rye-longpork-syrups": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-rye-longpork-syrupcharred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-rye-longpork-oiled": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-spelt-longpork-smashed": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-spelt-longpork-partbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-spelt-longpork-tender": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-spelt-longpork-charred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-spelt-longpork-syruppartbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-spelt-longpork-syrups": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-spelt-longpork-syrupcharred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-spelt-longpork-oiled": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-cassava-longpork-smashed": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-cassava-longpork-partbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-cassava-longpork-tender": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-cassava-longpork-charred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-cassava-longpork-syruppartbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-cassava-longpork-syrups": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-cassava-longpork-syrupcharred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-cassava-longpork-oiled": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-amaranth-longpork-smashed": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-amaranth-longpork-partbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-amaranth-longpork-tender": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-amaranth-longpork-charred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-amaranth-longpork-syruppartbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-amaranth-longpork-syrups": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-amaranth-longpork-syrupcharred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-amaranth-longpork-oiled": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-sunflower-longpork-smashed": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-sunflower-longpork-partbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-sunflower-longpork-tender": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-sunflower-longpork-charred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-sunflower-longpork-syruppartbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-sunflower-longpork-syrups": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-sunflower-longpork-syrupcharred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-sunflower-longpork-oiled": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-birch-longpork-smashed": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-birch-longpork-partbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-birch-longpork-tender": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-birch-longpork-charred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-birch-longpork-syruppartbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-birch-longpork-syrups": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-birch-longpork-syrupcharred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-birch-longpork-oiled": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-pine-longpork-smashed": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-pine-longpork-partbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-pine-longpork-tender": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-pine-longpork-charred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-pine-longpork-syruppartbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-pine-longpork-syrups": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-pine-longpork-syrupcharred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-pine-longpork-oiled": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-maple-longpork-smashed": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "breadedmeatnugget-maple-longpork-partbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-maple-longpork-tender": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-maple-longpork-charred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-maple-longpork-syruppartbaked": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-maple-longpork-syrups": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-maple-longpork-syrupcharred": {
+        "base": "item/food/meat/bushmeat-tender"
+      },
+      "breadedmeatnugget-maple-longpork-oiled": {
+        "base": "item/food/meat/bushmeat-smash"
+      },
+      "@*-(syruppartbaked|syrups|syrupcharred|partbaked|tender|charred)": {
+        "base": "item/food/meat/{meat}-tender"
+      },
+      "@*-(smashed|oiled)": {
+        "base": "item/food/meat/{meat}-smash"
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmeatnugget.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "longpork",
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "longporkcheese",
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "@*-(longpork|longporkcheese)-(raw|dried|cured)": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling"
+      },
+      "@*-(bushmeat|bushmeatcheese)-(raw|dried|cured)": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling"
+      },
+      "@*-(poultry|poultrycheese)-(raw|dried|cured)": {
+        "texture": "game:block/food/pie/fill-poultry",
+        "partType": "Filling"
+      },
+      "@*-(redmeat|redmeatcheese)-(raw|dried|cured)": {
+        "texture": "game:block/food/pie/fill-redmeat",
+        "partType": "Filling"
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/shapeByType",
+    "value": {
+      "*-longpork-*": {
+        "base": "expandedfoods:item/food/meat/sausage-bushmeat"
+      },
+      "*-bushmeat-*": {
+        "base": "expandedfoods:item/food/meat/sausage-bushmeat"
+      },
+      "*-longporkcheese-*": {
+        "base": "expandedfoods:item/food/meat/sausage-bushmeat"
+      },
+      "*-bushmeatcheese-*": {
+        "base": "expandedfoods:item/food/meat/sausage-bushmeat"
+      },
+      "*-poultry-*": {
+        "base": "expandedfoods:item/food/meat/sausage-poultry"
+      },
+      "*-poultrycheese-*": {
+        "base": "expandedfoods:item/food/meat/sausage-poultry"
+      },
+      "*-redmeat-*": {
+        "base": "expandedfoods:item/food/meat/sausage-redmeat"
+      },
+      "*-redmeatcheese-*": {
+        "base": "expandedfoods:item/food/meat/sausage-redmeat"
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType",
+    "value": {
+      "@*-(longpork|poultry|redmeat)-(partbaked|driedpartbaked)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "item/food/sausage/cured-partbaked"
+        }
+      },
+      "@*-(bushmeat|poultry|redmeat)-(partbaked|driedpartbaked)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "item/food/sausage/cured-partbaked"
+        }
+      },
+      "@*-(longpork|poultry|redmeat)-(cooked|driedcooked)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "game:item/food/meat/cured-smoked"
+        }
+      },
+      "@*-(bushmeat|poultry|redmeat)-(cooked|driedcooked)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "game:item/food/meat/cured-smoked"
+        }
+      },
+      "@*-(longpork|poultry|redmeat)-(charred|driedcharred)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "item/food/sausage/cured-charred"
+        }
+      },
+      "@*-(bushmeat|poultry|redmeat)-(charred|driedcharred)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "item/food/sausage/cured-charred"
+        }
+      },
+      "@*-(longporkcheese|poultrycheese|redmeatcheese)-(partbaked|driedpartbaked)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "item/food/sausage/cured-cheese-partbaked"
+        }
+      },
+      "@*-(bushmeatcheese|poultrycheese|redmeatcheese)-(partbaked|driedpartbaked)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "item/food/sausage/cured-cheese-partbaked"
+        }
+      },
+      "@*-(longporkcheese|poultrycheese|redmeatcheese)-(cooked|driedcooked)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "item/food/sausage/cured-cheese-cooked"
+        }
+      },
+      "@*-(bushmeatcheese|poultrycheese|redmeatcheese)-(cooked|driedcooked)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "item/food/sausage/cured-cheese-cooked"
+        }
+      },
+      "@*-(longporkcheese|poultrycheese|redmeatcheese)-(charred|driedcharred)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "item/food/sausage/cured-cheese-charred"
+        }
+      },
+      "@*-(bushmeatcheese|poultrycheese|redmeatcheese)-(charred|driedcharred)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "item/food/sausage/cured-cheese-charred"
+        }
+      },
+      "@*-(longporkcheese|poultrycheese|redmeatcheese)-(raw|dried|cured|curing)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "item/food/sausage/cured-cheese"
+        }
+      },
+      "@*-(bushmeatcheese|poultrycheese|redmeatcheese)-(raw|dried|cured|curing)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "item/food/sausage/cured-cheese"
+        }
+      },
+      "*": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "game:item/food/meat/cured"
+        }
+      }
+    },
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "longpork",
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+      "bbqmeat-longpork-raw": {
+        "satiety": 340,
+        "foodcategory": "Protein"
+      },
+      "bbqmeat-bushmeat-raw": {
+        "satiety": 200,
+        "foodcategory": "Protein"
+      },
+      "bbqmeat-redmeat-raw": {
+        "satiety": 480,
+        "foodcategory": "Protein"
+      },
+      "bbqmeat-poultry-raw": {
+        "satiety": 340,
+        "foodcategory": "Protein"
+      },
+      "bbqmeat-fish-raw": {
+        "satiety": 200,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/bakingPropertiesByType",
+    "value": {
+      "*-longpork-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.21875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-bushmeat-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.21875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-poultry-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.1875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-redmeat-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.9,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0.03125,
+            "y": 0.3125,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-fish-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:bbqmeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.8,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0,
+            "y": 0.1875,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": -90
+          }
+        }
+      },
+      "*-cookedpartbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:bbqmeat-{meat}-cooked",
+        "initialCode": "saucealot:bbqmeat-{meat}-raw"
+      },
+      "*-cooked": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:bbqmeat-{meat}-cookedcharred",
+        "initialCode": "saucealot:bbqmeat-{meat}-cookedpartbaked"
+      },
+      "*-cookedcharred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "saucealot:bbqmeat-{meat}-cooked"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "bbqmeat-redmeat-raw": {
+        "texture": "game:block/food/pie/fill-redmeat",
+        "partType": "Filling"
+      },
+      "bbqmeat-longpork-raw": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling"
+      },
+      "bbqmeat-bushmeat-raw": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling"
+      },
+      "bbqmeat-poultry-raw": {
+        "texture": "game:block/food/pie/fill-poultry",
+        "partType": "Filling"
+      },
+      "bbqmeat-fish-raw": {
+        "texture": "game:block/food/pie/fill-fish",
+        "partType": "Filling"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/inFirePitPropsByType",
+    "value": {
+      "*-longpork-*": {
+        "transform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.21875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-bushmeat-*": {
+        "transform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.21875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-poultry-*": {
+        "transform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.1875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-redmeat-*": {
+        "transform": {
+          "scale": 0.9,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0.03125,
+            "y": 0.3125,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-fish-*": {
+        "transform": {
+          "scale": 0.8,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0,
+            "y": 0.1875,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": -90
+          }
+        },
+        "useFirepitModel": "Spit"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType",
+    "value": {
+      "@*-(redmeat|longpork|poultry|fish)-raw": {
+        "meat": {
+          "base": "item/food/bbqmeat/raw"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/raw"
+        }
+      },
+      "@*-(redmeat|bushmeat|poultry|fish)-raw": {
+        "meat": {
+          "base": "item/food/bbqmeat/raw"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/raw"
+        }
+      },
+      "@*-(redmeat|longpork|poultry|fish)-cookedpartbaked": {
+        "meat": {
+          "base": "item/food/bbqmeat/partbaked"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/partbaked"
+        }
+      },
+      "@*-(redmeat|bushmeat|poultry|fish)-cookedpartbaked": {
+        "meat": {
+          "base": "item/food/bbqmeat/partbaked"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/partbaked"
+        }
+      },
+      "@*-(redmeat|longpork|poultry|fish)-cooked": {
+        "meat": {
+          "base": "item/food/bbqmeat/cooked"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/cooked"
+        }
+      },
+      "@*-(redmeat|bushmeat|poultry|fish)-cooked": {
+        "meat": {
+          "base": "item/food/bbqmeat/cooked"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/cooked"
+        }
+      },
+      "@*-(redmeat|longpork|poultry|fish)-cookedcharred": {
+        "meat": {
+          "base": "item/food/bbqmeat/charred"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/charred"
+        }
+      },
+      "@*-(redmeat|bushmeat|poultry|fish)-cookedcharred": {
+        "meat": {
+          "base": "item/food/bbqmeat/charred"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/charred"
+        }
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType",
+    "value": {
+      "*-longpork-cookedpartbaked": {
+        "satiety": 216,
+        "foodcategory": "Protein"
+      },
+      "*-bushmeat-cookedpartbaked": {
+        "satiety": 132,
+        "foodcategory": "Protein"
+      },
+      "*-poultry-cookedpartbaked": {
+        "satiety": 215,
+        "foodcategory": "Protein"
+      },
+      "*-redmeat-cookedpartbaked": {
+        "satiety": 300,
+        "foodcategory": "Protein"
+      },
+      "*-fish-cookedpartbaked": {
+        "satiety": 115,
+        "foodcategory": "Protein"
+      },
+      "*-longpork-cooked": {
+        "satiety": 240,
+        "foodcategory": "Protein"
+      },
+      "*-bushmeat-cooked": {
+        "satiety": 150,
+        "foodcategory": "Protein"
+      },
+      "*-poultry-cooked": {
+        "satiety": 240,
+        "foodcategory": "Protein"
+      },
+      "*-redmeat-cooked": {
+        "satiety": 330,
+        "foodcategory": "Protein"
+      },
+      "*-fish-cooked": {
+        "satiety": 130,
+        "foodcategory": "Protein"
+      },
+      "*-longpork-cookedcharred": {
+        "satiety": 222,
+        "foodcategory": "Protein"
+      },
+      "*-bushmeat-cookedcharred": {
+        "satiety": 135,
+        "foodcategory": "Protein"
+      },
+      "*-poultry-cookedcharred": {
+        "satiety": 220,
+        "foodcategory": "Protein"
+      },
+      "*-redmeat-cookedcharred": {
+        "satiety": 310,
+        "foodcategory": "Protein"
+      },
+      "*-fish-cookedcharred": {
+        "satiety": 115,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransformByType",
+    "value": {
+      "*-longpork-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 4.72
+      },
+      "*-bushmeat-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 4.72
+      },
+      "*-poultry-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 4.72
+      },
+      "*-redmeat-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.08,
+          "z": 0.5
+        },
+        "scale": 4.72
+      },
+      "*-fish-*": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": -22.5,
+          "y": -44,
+          "z": -158
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 2.81
+      },
+      "*": {
+        "rotate": false,
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 4.72
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransformByType",
+    "value": {
+      "*-longpork-*": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "*-bushmeat-*": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "*-poultry-*": {
+        "translation": {
+          "x": -0.07,
+          "y": -0.36,
+          "z": -0.14
+        },
+        "rotation": {
+          "x": 85,
+          "y": 9,
+          "z": 3
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.75
+      },
+      "*-redmeat-*": {
+        "translation": {
+          "x": -0.1,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "*-fish-*": {
+        "translation": {
+          "x": -0.89,
+          "y": -0.2,
+          "z": -0.91
+        },
+        "rotation": {
+          "x": -106,
+          "y": -1,
+          "z": -5
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.12,
+          "z": 0.54
+        },
+        "scale": 0.65
+      },
+      "*": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/shapebytype",
+    "value": {
+      "bbqmeat-longpork-raw": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "bbqmeat-longpork-cookedpartbaked": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "bbqmeat-longpork-cooked": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "bbqmeat-longpork-cookedcharred": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "@*-redmeat-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/red"
+      },
+      "@*-longpork-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/{meat}"
+      },
+      "@*-bushmeat-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/{meat}"
+      },
+      "@*-poultry-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/{meat}"
+      },
+      "@*-fish-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/fish"
+      }
+    },
+    "file": "saucealot:itemtypes/food/bbqmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "longpork",
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+      "coloneltsomeat-longpork-raw": {
+        "satiety": 340,
+        "foodcategory": "Protein"
+      },
+      "coloneltsomeat-bushmeat-raw": {
+        "satiety": 200,
+        "foodcategory": "Protein"
+      },
+      "coloneltsomeat-redmeat-raw": {
+        "satiety": 480,
+        "foodcategory": "Protein"
+      },
+      "coloneltsomeat-poultry-raw": {
+        "satiety": 340,
+        "foodcategory": "Protein"
+      },
+      "coloneltsomeat-fish-raw": {
+        "satiety": 200,
+        "foodcategory": "Protein"
+      },
+      "coloneltsomeat-primemeat-raw": {
+        "satiety": 600,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/bakingPropertiesByType",
+    "value": {
+      "*-longpork-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.21875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-bushmeat-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.21875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-poultry-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.1875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-redmeat-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.9,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0.03125,
+            "y": 0.3125,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-primemeat-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.9,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0.03125,
+            "y": 0.3125,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-fish-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.8,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0,
+            "y": 0.1875,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": -90
+          }
+        }
+      },
+      "*-cookedpartbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:coloneltsomeat-{meat}-cooked",
+        "initialCode": "saucealot:coloneltsomeat-{meat}-raw"
+      },
+      "*-cooked": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:coloneltsomeat-{meat}-cookedcharred",
+        "initialCode": "saucealot:coloneltsomeat-{meat}-cookedpartbaked"
+      },
+      "*-cookedcharred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "saucealot:coloneltsomeat-{meat}-cooked"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "*-redmeat-raw": {
+        "texture": "game:block/food/pie/fill-redmeat",
+        "partType": "Filling"
+      },
+      "*-primemeat-raw": {
+        "texture": "game:block/food/pie/fill-redmeat",
+        "partType": "Filling"
+      },
+      "*-longpork-raw": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling"
+      },
+      "*-bushmeat-raw": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling"
+      },
+      "*-poultry-raw": {
+        "texture": "game:block/food/pie/fill-poultry",
+        "partType": "Filling"
+      },
+      "*-fish-raw": {
+        "texture": "game:block/food/pie/fill-fish",
+        "partType": "Filling"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/inFirePitPropsByType",
+    "value": {
+      "*-longpork-*": {
+        "transform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.21875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-bushmeat-*": {
+        "transform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.21875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-poultry-*": {
+        "transform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.1875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-redmeat-*": {
+        "transform": {
+          "scale": 0.9,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0.03125,
+            "y": 0.3125,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-primemeat-*": {
+        "transform": {
+          "scale": 0.9,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0.03125,
+            "y": 0.3125,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-fish-*": {
+        "transform": {
+          "scale": 0.8,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0,
+            "y": 0.1875,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": -90
+          }
+        },
+        "useFirepitModel": "Spit"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType",
+    "value": {
+      "@*-(redmeat|longpork|poultry|fish)-raw": {
+        "meat": {
+          "base": "item/food/bbqmeat/raw"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/raw"
+        }
+      },
+      "@*-(redmeat|bushmeat|poultry|fish)-raw": {
+        "meat": {
+          "base": "item/food/bbqmeat/raw"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/raw"
+        }
+      },
+      "@*-(redmeat|longpork|poultry|fish)-cookedpartbaked": {
+        "meat": {
+          "base": "item/food/bbqmeat/partbaked"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/partbaked"
+        }
+      },
+      "@*-(redmeat|bushmeat|poultry|fish)-cookedpartbaked": {
+        "meat": {
+          "base": "item/food/bbqmeat/partbaked"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/partbaked"
+        }
+      },
+      "@*-(redmeat|longpork|poultry|fish)-cooked": {
+        "meat": {
+          "base": "item/food/bbqmeat/cooked"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/cooked"
+        }
+      },
+      "@*-(redmeat|bushmeat|poultry|fish)-cooked": {
+        "meat": {
+          "base": "item/food/bbqmeat/cooked"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/cooked"
+        }
+      },
+      "@*-(redmeat|longpork|poultry|fish)-cookedcharred": {
+        "meat": {
+          "base": "item/food/bbqmeat/charred"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/charred"
+        }
+      },
+      "@*-(redmeat|bushmeat|poultry|fish)-cookedcharred": {
+        "meat": {
+          "base": "item/food/bbqmeat/charred"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/charred"
+        }
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType",
+    "value": {
+      "*-longpork-cookedpartbaked": {
+        "satiety": 216,
+        "foodcategory": "Protein"
+      },
+      "*-bushmeat-cookedpartbaked": {
+        "satiety": 132,
+        "foodcategory": "Protein"
+      },
+      "*-poultry-cookedpartbaked": {
+        "satiety": 215,
+        "foodcategory": "Protein"
+      },
+      "*-redmeat-cookedpartbaked": {
+        "satiety": 300,
+        "foodcategory": "Protein"
+      },
+      "*-fish-cookedpartbaked": {
+        "satiety": 115,
+        "foodcategory": "Protein"
+      },
+      "*-longpork-cooked": {
+        "satiety": 240,
+        "foodcategory": "Protein"
+      },
+      "*-bushmeat-cooked": {
+        "satiety": 150,
+        "foodcategory": "Protein"
+      },
+      "*-poultry-cooked": {
+        "satiety": 240,
+        "foodcategory": "Protein"
+      },
+      "*-redmeat-cooked": {
+        "satiety": 330,
+        "foodcategory": "Protein"
+      },
+      "*-fish-cooked": {
+        "satiety": 130,
+        "foodcategory": "Protein"
+      },
+      "*-longpork-cookedcharred": {
+        "satiety": 222,
+        "foodcategory": "Protein"
+      },
+      "*-bushmeat-cookedcharred": {
+        "satiety": 135,
+        "foodcategory": "Protein"
+      },
+      "*-poultry-cookedcharred": {
+        "satiety": 220,
+        "foodcategory": "Protein"
+      },
+      "*-redmeat-cookedcharred": {
+        "satiety": 310,
+        "foodcategory": "Protein"
+      },
+      "*-fish-cookedcharred": {
+        "satiety": 115,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransformByType",
+    "value": {
+      "*-longpork-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 4.72
+      },
+      "*-bushmeat-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 4.72
+      },
+      "*-poultry-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 4.72
+      },
+      "*-redmeat-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.08,
+          "z": 0.5
+        },
+        "scale": 4.72
+      },
+      "*-primemeat-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.08,
+          "z": 0.5
+        },
+        "scale": 4.72
+      },
+      "*-fish-*": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": -22.5,
+          "y": -44,
+          "z": -158
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 2.81
+      },
+      "*": {
+        "rotate": false,
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 4.72
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransformByType",
+    "value": {
+      "*-longpork-*": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "*-bushmeat-*": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "*-poultry-*": {
+        "translation": {
+          "x": -0.07,
+          "y": -0.36,
+          "z": -0.14
+        },
+        "rotation": {
+          "x": 85,
+          "y": 9,
+          "z": 3
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.75
+      },
+      "*-redmeat-*": {
+        "translation": {
+          "x": -0.1,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "*-primemeat-*": {
+        "translation": {
+          "x": -0.1,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "*-fish-*": {
+        "translation": {
+          "x": -0.89,
+          "y": -0.2,
+          "z": -0.91
+        },
+        "rotation": {
+          "x": -106,
+          "y": -1,
+          "z": -5
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.12,
+          "z": 0.54
+        },
+        "scale": 0.65
+      },
+      "*": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/shapebytype",
+    "value": {
+      "coloneltsomeat-longpork-raw": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "coloneltsomeat-longpork-cookedpartbaked": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "coloneltsomeat-longpork-cooked": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "coloneltsomeat-longpork-cookedcharred": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "@*-redmeat-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/red"
+      },
+      "@*-longpork-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/{meat}"
+      },
+      "@*-bushmeat-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/{meat}"
+      },
+      "@*-poultry-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/{meat}"
+      },
+      "@*-fish-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/fish"
+      }
+    },
+    "file": "saucealot:itemtypes/food/coloneltsomeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "longpork",
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMealByType",
+    "value": {
+      "winereductionmeat-longpork-raw": {
+        "satiety": 340,
+        "foodcategory": "Protein"
+      },
+      "winereductionmeat-bushmeat-raw": {
+        "satiety": 200,
+        "foodcategory": "Protein"
+      },
+      "winereductionmeat-redmeat-raw": {
+        "satiety": 480,
+        "foodcategory": "Protein"
+      },
+      "winereductionmeat-poultry-raw": {
+        "satiety": 340,
+        "foodcategory": "Protein"
+      },
+      "winereductionmeat-fish-raw": {
+        "satiety": 200,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/bakingPropertiesByType",
+    "value": {
+      "*-longpork-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.21875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-bushmeat-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.21875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-poultry-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.1875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-redmeat-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.9,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0.03125,
+            "y": 0.3125,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        }
+      },
+      "*-fish-raw": {
+        "temp": 150,
+        "levelFrom": 0.0,
+        "levelTo": 0.25,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked",
+        "onDisplayTransform": {
+          "scale": 0.8,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0,
+            "y": 0.1875,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": -90
+          }
+        }
+      },
+      "*-cookedpartbaked": {
+        "temp": 150,
+        "levelFrom": 0.25,
+        "levelTo": 0.5,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:winereductionmeat-{meat}-cooked",
+        "initialCode": "saucealot:winereductionmeat-{meat}-raw"
+      },
+      "*-cooked": {
+        "temp": 150,
+        "levelFrom": 0.5,
+        "levelTo": 0.75,
+        "startScaleY": 1.0,
+        "endScaleY": 1.0,
+        "resultCode": "saucealot:winereductionmeat-{meat}-cookedcharred",
+        "initialCode": "saucealot:winereductionmeat-{meat}-cookedpartbaked"
+      },
+      "*-cookedcharred": {
+        "temp": 150,
+        "levelFrom": 0.75,
+        "levelTo": 1.0,
+        "startScaleY": 1.0,
+        "endScaleY": 0.9,
+        "initialCode": "saucealot:winereductionmeat-{meat}-cooked"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/inPiePropertiesByType",
+    "value": {
+      "winereductionmeat-redmeat-raw": {
+        "texture": "game:block/food/pie/fill-redmeat",
+        "partType": "Filling"
+      },
+      "winereductionmeat-longpork-raw": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling"
+      },
+      "winereductionmeat-bushmeat-raw": {
+        "texture": "game:block/food/pie/fill-bushmeat",
+        "partType": "Filling"
+      },
+      "winereductionmeat-poultry-raw": {
+        "texture": "game:block/food/pie/fill-poultry",
+        "partType": "Filling"
+      },
+      "winereductionmeat-fish-raw": {
+        "texture": "game:block/food/pie/fill-fish",
+        "partType": "Filling"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/inFirePitPropsByType",
+    "value": {
+      "*-longpork-*": {
+        "transform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.21875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-bushmeat-*": {
+        "transform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.21875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-poultry-*": {
+        "transform": {
+          "scale": 0.85,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": -0.0625,
+            "y": 0.1875,
+            "z": 0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-redmeat-*": {
+        "transform": {
+          "scale": 0.9,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0.03125,
+            "y": 0.3125,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": 90
+          }
+        },
+        "useFirepitModel": "Spit"
+      },
+      "*-fish-*": {
+        "transform": {
+          "scale": 0.8,
+          "origin": {
+            "x": 0.5,
+            "y": 0.0625,
+            "z": 0.5
+          },
+          "translation": {
+            "x": 0,
+            "y": 0.1875,
+            "z": 0
+          },
+          "rotation": {
+            "x": 0,
+            "y": 53,
+            "z": -90
+          }
+        },
+        "useFirepitModel": "Spit"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType",
+    "value": {
+      "@*-(redmeat|longpork|poultry|fish)-raw": {
+        "meat": {
+          "base": "item/food/bbqmeat/raw"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/raw"
+        }
+      },
+      "@*-(redmeat|bushmeat|poultry|fish)-raw": {
+        "meat": {
+          "base": "item/food/bbqmeat/raw"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/raw"
+        }
+      },
+      "@*-(redmeat|longpork|poultry|fish)-cookedpartbaked": {
+        "meat": {
+          "base": "item/food/bbqmeat/partbaked"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/partbaked"
+        }
+      },
+      "@*-(redmeat|bushmeat|poultry|fish)-cookedpartbaked": {
+        "meat": {
+          "base": "item/food/bbqmeat/partbaked"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/partbaked"
+        }
+      },
+      "@*-(redmeat|longpork|poultry|fish)-cooked": {
+        "meat": {
+          "base": "item/food/bbqmeat/cooked"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/cooked"
+        }
+      },
+      "@*-(redmeat|bushmeat|poultry|fish)-cooked": {
+        "meat": {
+          "base": "item/food/bbqmeat/cooked"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/cooked"
+        }
+      },
+      "@*-(redmeat|longpork|poultry|fish)-cookedcharred": {
+        "meat": {
+          "base": "item/food/bbqmeat/charred"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/charred"
+        }
+      },
+      "@*-(redmeat|bushmeat|poultry|fish)-cookedcharred": {
+        "meat": {
+          "base": "item/food/bbqmeat/charred"
+        },
+        "raw": {
+          "base": "item/food/bbqmeat/charred"
+        }
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType",
+    "value": {
+      "*-longpork-cookedpartbaked": {
+        "satiety": 216,
+        "foodcategory": "Protein"
+      },
+      "*-bushmeat-cookedpartbaked": {
+        "satiety": 132,
+        "foodcategory": "Protein"
+      },
+      "*-poultry-cookedpartbaked": {
+        "satiety": 215,
+        "foodcategory": "Protein"
+      },
+      "*-redmeat-cookedpartbaked": {
+        "satiety": 300,
+        "foodcategory": "Protein"
+      },
+      "*-fish-cookedpartbaked": {
+        "satiety": 115,
+        "foodcategory": "Protein"
+      },
+      "*-longpork-cooked": {
+        "satiety": 240,
+        "foodcategory": "Protein"
+      },
+      "*-bushmeat-cooked": {
+        "satiety": 150,
+        "foodcategory": "Protein"
+      },
+      "*-poultry-cooked": {
+        "satiety": 240,
+        "foodcategory": "Protein"
+      },
+      "*-redmeat-cooked": {
+        "satiety": 330,
+        "foodcategory": "Protein"
+      },
+      "*-fish-cooked": {
+        "satiety": 130,
+        "foodcategory": "Protein"
+      },
+      "*-longpork-cookedcharred": {
+        "satiety": 222,
+        "foodcategory": "Protein"
+      },
+      "*-bushmeat-cookedcharred": {
+        "satiety": 135,
+        "foodcategory": "Protein"
+      },
+      "*-poultry-cookedcharred": {
+        "satiety": 220,
+        "foodcategory": "Protein"
+      },
+      "*-redmeat-cookedcharred": {
+        "satiety": 310,
+        "foodcategory": "Protein"
+      },
+      "*-fish-cookedcharred": {
+        "satiety": 115,
+        "foodcategory": "Protein"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/guiTransformByType",
+    "value": {
+      "*-longpork-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 4.72
+      },
+      "*-bushmeat-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 4.72
+      },
+      "*-poultry-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 4.72
+      },
+      "*-redmeat-*": {
+        "rotate": false,
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.4,
+          "y": 0.08,
+          "z": 0.5
+        },
+        "scale": 4.72
+      },
+      "*-fish-*": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": -22.5,
+          "y": -44,
+          "z": -158
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 2.81
+      },
+      "*": {
+        "rotate": false,
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 171,
+          "y": -122,
+          "z": 33
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.04,
+          "z": 0.53
+        },
+        "scale": 4.72
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/tpHandTransformByType",
+    "value": {
+      "*-longpork-*": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "*-bushmeat-*": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "*-poultry-*": {
+        "translation": {
+          "x": -0.07,
+          "y": -0.36,
+          "z": -0.14
+        },
+        "rotation": {
+          "x": 85,
+          "y": 9,
+          "z": 3
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.75
+      },
+      "*-redmeat-*": {
+        "translation": {
+          "x": -0.1,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      },
+      "*-fish-*": {
+        "translation": {
+          "x": -0.89,
+          "y": -0.2,
+          "z": -0.91
+        },
+        "rotation": {
+          "x": -106,
+          "y": -1,
+          "z": -5
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.12,
+          "z": 0.54
+        },
+        "scale": 0.65
+      },
+      "*": {
+        "translation": {
+          "x": -0.04,
+          "y": 0.26,
+          "z": -0.04
+        },
+        "rotation": {
+          "x": -78,
+          "y": 15,
+          "z": 0
+        },
+        "origin": {
+          "x": 0.23,
+          "y": 0,
+          "z": 0.13
+        },
+        "scale": 0.92
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/shapebytype",
+    "value": {
+      "winereductionmeat-longpork-raw": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "winereductionmeat-longpork-cookedpartbaked": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "winereductionmeat-longpork-cooked": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "winereductionmeat-longpork-cookedcharred": {
+        "base": "game:item/food/meat/bushmeat"
+      },
+      "@*-redmeat-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/red"
+      },
+      "@*-longpork-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/{meat}"
+      },
+      "@*-bushmeat-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/{meat}"
+      },
+      "@*-poultry-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/{meat}"
+      },
+      "@*-fish-(cookedpartbaked|cooked|cookedcharred|raw)": {
+        "base": "game:item/food/meat/fish"
+      }
+    },
+    "file": "saucealot:itemtypes/food/winereductionmeat.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "saucealot"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "longpork",
+    "file": "sandwich:itemtypes/sandwich/sausagedog.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "sandwich"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "longporkcheese",
+    "file": "sandwich:itemtypes/sandwich/sausagedog.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "sandwich"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/texturesByType",
+    "value": {
+      "@*-(longpork|poultry|redmeat)-(cooked|driedcooked)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "game:item/food/meat/cured-smoked"
+        }
+      },
+      "@*-(bushmeat|poultry|redmeat)-(cooked|driedcooked)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "game:item/food/meat/cured-smoked"
+        }
+      },
+      "@*-(longporkcheese|poultrycheese|redmeatcheese)-(cooked|driedcooked)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "expandedfoods:item/food/sausage/cured-cheese-cooked"
+        }
+      },
+      "@*-(bushmeatcheese|poultrycheese|redmeatcheese)-(cooked|driedcooked)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "expandedfoods:item/food/sausage/cured-cheese-cooked"
+        }
+      },
+      "@*-(longporkcheese|poultrycheese|redmeatcheese)-(dried|cured)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "expandedfoods:item/food/sausage/cured-cheese"
+        }
+      },
+      "@*-(bushmeatcheese|poultrycheese|redmeatcheese)-(dried|cured)": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "expandedfoods:item/food/sausage/cured-cheese"
+        }
+      },
+      "*": {
+        "white1": {
+          "base": "game:block/cloth/wool/white1"
+        },
+        "cured": {
+          "base": "game:item/food/meat/cured"
+        }
+      }
+    },
+    "file": "sandwich:itemtypes/sandwich/sausagedog.json",
+    "dependsOn": [
+      {
+        "modid": "expandedfoods"
+      },
+      {
+        "modid": "sandwich"
+      }
+    ]
+  }
+]

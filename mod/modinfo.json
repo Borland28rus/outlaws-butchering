@@ -1,0 +1,21 @@
+{
+  "type": "code",
+  "modid": "outlawshumanbutchering",
+  "name": "Outlaws × Butchering",
+  "authors": [
+    "Borland28rus"
+  ],
+  "description": "Butcher the humans and hounds of Outlaw Mod the Butchering way: carry the body, hang it on the hook, work it on the table for blood, sinew and offal. Humans give \"long pork\", human hide and always exactly one head. With Expanded Foods installed, long pork works like bushmeat in EF (optional support for EF: Meals, Sauce-a-lot and Sammiches).",
+  "version": "1.0.0",
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": {
+    "game": "1.22.0",
+    "butchering": "*",
+    "outlawmod122": "*"
+  },
+  "contributors": [
+    "Claude (Anthropic) — code and generators"
+  ]
+}

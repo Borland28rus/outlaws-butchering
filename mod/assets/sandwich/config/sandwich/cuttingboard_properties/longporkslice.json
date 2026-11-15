@@ -1,0 +1,24 @@
+{
+  "longpork-cooked": {
+    "convertTo": {
+      "type": "item",
+      "code": "sandwich:slicedmeat",
+      "quantity": 2
+    },
+    "tool": [
+      "Knife",
+      "Sword"
+    ]
+  },
+  "outlawshumanbutchering:longpork-cooked": {
+    "convertTo": {
+      "type": "item",
+      "code": "sandwich:slicedmeat",
+      "quantity": 2
+    },
+    "tool": [
+      "Knife",
+      "Sword"
+    ]
+  }
+}
